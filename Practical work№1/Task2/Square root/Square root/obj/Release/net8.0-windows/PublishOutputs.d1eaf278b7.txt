@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\Program\Square root.exe
+C:\Users\User\Desktop\Program\Square root.dll
+C:\Users\User\Desktop\Program\Square root.deps.json
+C:\Users\User\Desktop\Program\Square root.runtimeconfig.json
+C:\Users\User\Desktop\Program\Square root.pdb
