@@ -18,3 +18,24 @@ D:\Square root\Square root\Square root\obj\Debug\net8.0-windows\refint\Square ro
 D:\Square root\Square root\Square root\obj\Debug\net8.0-windows\Square root.pdb
 D:\Square root\Square root\Square root\obj\Debug\net8.0-windows\Square root.genruntimeconfig.cache
 D:\Square root\Square root\Square root\obj\Debug\net8.0-windows\ref\Square root.dll
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\bin\Debug\net8.0-windows\Square root.exe
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\bin\Debug\net8.0-windows\Square root.deps.json
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\bin\Debug\net8.0-windows\Square root.runtimeconfig.json
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\bin\Debug\net8.0-windows\Square root.dll
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\bin\Debug\net8.0-windows\Square root.pdb
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\App.g.cs
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root_MarkupCompile.cache
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root_MarkupCompile.lref
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\MainWindow.baml
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.g.resources
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.GeneratedMSBuildEditorConfig.editorconfig
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.AssemblyInfoInputs.cache
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.AssemblyInfo.cs
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.csproj.CoreCompileInputs.cache
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.sourcelink.json
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.dll
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\refint\Square root.dll
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.pdb
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\Square root.genruntimeconfig.cache
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\obj\Debug\net8.0-windows\ref\Square root.dll

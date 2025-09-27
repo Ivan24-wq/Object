@@ -2,11 +2,18 @@
 
 namespace TextBox
 {
-    public partial class Form1 : Form
+    public partial class From : Form
     {
-        public Form1()
+
+
+        public From()
         {
             InitializeComponent();
+            string[] types = { "int", "string", "double", "bool", "char", "float" };
+            comboFrom.Items.AddRange(types);
+            comboTo.Items.AddRange(types);
+            comboFrom.SelectedIndex = 0;
+            comboTo.SelectedIndex = 1;
         }
 
         private void textBox1_TextChanged(object sender, KeyPressEventArgs e)
@@ -197,7 +204,7 @@ namespace TextBox
             {
                 int.Parse(strR);
             }
-            catch(FormatException)
+            catch (FormatException)
             {
                 result += $"TryParse: " + Environment.NewLine;
                 result += $"Ошибка!!! Введённая строка: \"{strR}\" не является числом!" + Environment.NewLine;
@@ -205,7 +212,7 @@ namespace TextBox
 
             //Tryparse
             string str3 = "7983";
-            if(int.TryParse(str3, out int i2))
+            if (int.TryParse(str3, out int i2))
             {
                 result += $"int.TryParse: \"{str3}\" -> {i2}" + Environment.NewLine;
             }
@@ -215,5 +222,6 @@ namespace TextBox
             }
             textBox2.Text = result;
         }
+
     }
 }

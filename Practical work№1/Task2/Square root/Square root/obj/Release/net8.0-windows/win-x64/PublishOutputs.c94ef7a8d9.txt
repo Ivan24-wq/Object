@@ -1,0 +1,2 @@
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\bin\Release\net8.0-windows\win-x64\publish\Square root.pdb
+D:\ООП\Object\Practical work№1\Task2\Square root\Square root\bin\Release\net8.0-windows\win-x64\publish\Square root.exe

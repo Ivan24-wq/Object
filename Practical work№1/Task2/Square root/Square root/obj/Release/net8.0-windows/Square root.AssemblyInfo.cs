@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Square root")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65146e21a16da211fef6429cfbf4bcc228af4ad8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baaea55b36e9b2428892315c4f3ac4683820b300")]
 [assembly: System.Reflection.AssemblyProductAttribute("Square root")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Square root")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
