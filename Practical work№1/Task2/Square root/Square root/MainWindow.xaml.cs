@@ -79,7 +79,7 @@ namespace Square_root
 
             result = guess;        // Задаём начальное приближение
             delta = 1e-10m;        // Точность decimal
-            iterations = 0;
+            iterations = 0;        // Количество итераций(начинаем с 0)
             isReady = true;
 
             Newtonres.Content = "Начальное приближение: " + result;
