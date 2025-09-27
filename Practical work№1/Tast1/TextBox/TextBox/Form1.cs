@@ -223,5 +223,9 @@ namespace TextBox
             textBox2.Text = result;
         }
 
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
