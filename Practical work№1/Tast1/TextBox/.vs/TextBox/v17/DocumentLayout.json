@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21161\\Tast1\\TextBox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{180C9E65-F3A8-4E6F-B94D-FC83DCDE0867}|TextBox\\TextBox.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21161\\tast1\\textbox\\textbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{180C9E65-F3A8-4E6F-B94D-FC83DCDE0867}|TextBox\\TextBox.csproj|solutionrelative:textbox\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21161\\Tast1\\TextBox\\TextBox\\Program.cs",
+              "RelativeDocumentMoniker": "TextBox\\Program.cs",
+              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21161\\Tast1\\TextBox\\TextBox\\Program.cs",
+              "RelativeToolTip": "TextBox\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T12:04:31.58Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

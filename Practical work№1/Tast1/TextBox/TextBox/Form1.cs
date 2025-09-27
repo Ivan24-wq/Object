@@ -1,4 +1,4 @@
-using System.Globalization;
+п»їusing System.Globalization;
 
 namespace TextBox
 {
@@ -46,23 +46,23 @@ namespace TextBox
             if (double.TryParse(input, NumberStyles.Float, CultureInfo.InvariantCulture, out double result) ||
                 double.TryParse(input, NumberStyles.Float, CultureInfo.CurrentCulture, out result))
             {
-                MessageBox.Show("Верно: " + result);
+                MessageBox.Show("Р’РµСЂРЅРѕ: " + result);
             }
             else
             {
-                MessageBox.Show("Ошибка!");
+                MessageBox.Show("РћС€РёР±РєР°!");
             }
         }
 
-        //Пример явного
+        //РџСЂРёРјРµСЂ СЏРІРЅРѕРіРѕ
         private void button2_Click(object sender, EventArgs e)
         {
-            string result = "Явное преобразование " + Environment.NewLine;
+            string result = "РЇРІРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ " + Environment.NewLine;
             int i = 100;
             double d = 123.45;
             char ch = 'A';
 
-            //Вывод
+            //Р’С‹РІРѕРґ
             result += $"int -> byte: {i} -> {(byte)i}" + Environment.NewLine;
             result += $"double -> int: {d} -> {(int)d}" + Environment.NewLine;
             result += $"double -> float: {d} -> {(float)d}" + Environment.NewLine;
@@ -71,10 +71,10 @@ namespace TextBox
             textBox2.Text = result;
         }
 
-        //Пример неявного
+        //РџСЂРёРјРµСЂ РЅРµСЏРІРЅРѕРіРѕ
         private void button4_Click(object sender, EventArgs e)
         {
-            string result = "Неявное преобразование " + Environment.NewLine;
+            string result = "РќРµСЏРІРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ " + Environment.NewLine;
             int i = 100;
             double f = 123.45;
             char ch = 'A';
@@ -89,12 +89,12 @@ namespace TextBox
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string result = "Безопасное преобразование: <is>" + Environment.NewLine;
+            string result = "Р‘РµР·РѕРїР°СЃРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ: <is>" + Environment.NewLine;
 
             object obj1 = "Hello wolrd";
             object obj2 = 52;
             object obj3 = 3.14;
-            //С помощью оператора IS
+            //РЎ РїРѕРјРѕС‰СЊСЋ РѕРїРµСЂР°С‚РѕСЂР° IS
             if (obj1 is string s1)
             {
                 result += $"obj1 is  string: {s1}" + Environment.NewLine;
@@ -112,25 +112,25 @@ namespace TextBox
                 result += $"obj3 is not int" + Environment.NewLine;
             }
 
-            //С помощью оператора as
-            result += "Безопасное преобразование: <as>" + Environment.NewLine;
+            //РЎ РїРѕРјРѕС‰СЊСЋ РѕРїРµСЂР°С‚РѕСЂР° as
+            result += "Р‘РµР·РѕРїР°СЃРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ: <as>" + Environment.NewLine;
 
             string str1 = obj1 as string;
             string str2 = obj2 as string;
             string str3 = obj3 as string;
             result += $"obj1  as string: {(str1 ?? "null")}" + Environment.NewLine;
             result += $"obj2 as string: {(str2 ?? "null")}" + Environment.NewLine;
-            result += $"obj3 нелья преобразовать в string тк {obj3.GetType().Name}" + Environment.NewLine;
+            result += $"obj3 РЅРµР»СЊСЏ РїСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІ string С‚Рє {obj3.GetType().Name}" + Environment.NewLine;
             textBox2.Text = result;
 
         }
-        //Пользовательское преобразование
+        //РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ
         private void button5_Click(object sender, EventArgs e)
         {
 
-            string result = "Пользовательское преобразование" + Environment.NewLine;
+            string result = "РџРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ" + Environment.NewLine;
 
-            //Создадим экземпляр класса
+            //РЎРѕР·РґР°РґРёРј СЌРєР·РµРјРїР»СЏСЂ РєР»Р°СЃСЃР°
             Temperatue t = new Temperatue(25.5);
             double d1 = t;
             result += $"Temperature -> double (implicit): {t} -> {d1}" + Environment.NewLine;
@@ -139,7 +139,7 @@ namespace TextBox
             Temperatue t2 = (Temperatue)d2;
             result += $"double -> Temperature (explicit): {d2} -> {t2}" + Environment.NewLine;
 
-            //Проверка на -
+            //РџСЂРѕРІРµСЂРєР° РЅР° -
             Temperatue t3 = new Temperatue(-5);
             double d3 = t3;
             result += $"Temperature -> double: {t3} -> {d3}" + Environment.NewLine;
@@ -147,22 +147,22 @@ namespace TextBox
 
         }
 
-        //Создадим класс Температура
+        //РЎРѕР·РґР°РґРёРј РєР»Р°СЃСЃ РўРµРјРїРµСЂР°С‚СѓСЂР°
         public class Temperatue
         {
-            private double Celcium { get; set; } //Инкапсулируем
+            private double Celcium { get; set; } //РРЅРєР°РїСЃСѓР»РёСЂСѓРµРј
             public Temperatue(double celcium)
             {
                 Celcium = celcium;
             }
 
-            //неявное преобразование
+            //РЅРµСЏРІРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ
             public static implicit operator double(Temperatue t)
             {
                 return t.Celcium;
             }
 
-            //Явное преобразование
+            //РЇРІРЅРѕРµ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ
             public static explicit operator Temperatue(double d)
             {
                 return new Temperatue(d);
@@ -186,12 +186,12 @@ namespace TextBox
             double d1 = Convert.ToDouble(str1);
             result += $"Convert.ToDouble: \"{str1}\" -> {d1}" + Environment.NewLine;
 
-            //Преобразуем int с помощью Parse
+            //РџСЂРµРѕР±СЂР°Р·СѓРµРј int СЃ РїРѕРјРѕС‰СЊСЋ Parse
             string str2 = "45";
             int i1 = int.Parse(str2);
             result += $"int.Parse: \"{str2}\" -> {i1}" + Environment.NewLine;
 
-            //Проверка на ошибку при Parse
+            //РџСЂРѕРІРµСЂРєР° РЅР° РѕС€РёР±РєСѓ РїСЂРё Parse
             string strR = "ert7";
             try
             {
@@ -200,7 +200,7 @@ namespace TextBox
             catch(FormatException)
             {
                 result += $"TryParse: " + Environment.NewLine;
-                result += $"Ошибка!!! Введённая строка: \"{strR}\" не является числом!" + Environment.NewLine;
+                result += $"РћС€РёР±РєР°!!! Р’РІРµРґС‘РЅРЅР°СЏ СЃС‚СЂРѕРєР°: \"{strR}\" РЅРµ СЏРІР»СЏРµС‚СЃСЏ С‡РёСЃР»РѕРј!" + Environment.NewLine;
             }
 
             //Tryparse
@@ -211,7 +211,7 @@ namespace TextBox
             }
             else
             {
-                result += $"int.TryParse: \"{str3}\" -> ошибка!" + Environment.NewLine;
+                result += $"int.TryParse: \"{str3}\" -> РѕС€РёР±РєР°!" + Environment.NewLine;
             }
             textBox2.Text = result;
         }
