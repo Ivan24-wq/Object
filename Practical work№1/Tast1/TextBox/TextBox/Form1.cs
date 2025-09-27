@@ -172,5 +172,48 @@ namespace TextBox
                 return $"{Celcium}C";
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            string result = "Convert, Parse " + Environment.NewLine;
+
+            string str1 = "456,12";
+            double d1 = Convert.ToDouble(str1);
+            result += $"Convert.ToDouble: \"{str1}\" -> {d1}" + Environment.NewLine;
+
+            //Преобразуем int с помощью Parse
+            string str2 = "45";
+            int i1 = int.Parse(str2);
+            result += $"int.Parse: \"{str2}\" -> {i1}" + Environment.NewLine;
+
+            //Проверка на ошибку при Parse
+            string strR = "ert7";
+            try
+            {
+                int.Parse(strR);
+            }
+            catch(FormatException)
+            {
+                result += $"TryParse: " + Environment.NewLine;
+                result += $"Ошибка!!! Введённая строка: \"{strR}\" не является числом!" + Environment.NewLine;
+            }
+
+            //Tryparse
+            string str3 = "7983";
+            if(int.TryParse(str3, out int i2))
+            {
+                result += $"int.TryParse: \"{str3}\" -> {i2}" + Environment.NewLine;
+            }
+            else
+            {
+                result += $"int.TryParse: \"{str3}\" -> ошибка!" + Environment.NewLine;
+            }
+            textBox2.Text = result;
+        }
     }
 }

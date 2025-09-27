@@ -36,6 +36,7 @@
             button4 = new Button();
             button3 = new Button();
             button5 = new Button();
+            button6 = new Button();
             SuspendLayout();
             // 
             // textBox1
@@ -59,9 +60,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(8, 7);
+            button2.Location = new Point(0, 7);
             button2.Name = "button2";
-            button2.Size = new Size(186, 29);
+            button2.Size = new Size(157, 29);
             button2.TabIndex = 3;
             button2.Text = "Явное преобразование";
             button2.UseVisualStyleBackColor = true;
@@ -78,17 +79,19 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(8, 314);
+            label2.Font = new Font("Times New Roman", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            label2.Location = new Point(8, 307);
             label2.Name = "label2";
-            label2.Size = new Size(60, 15);
+            label2.Size = new Size(101, 22);
             label2.TabIndex = 6;
-            label2.Text = "Результат";
+            label2.Text = "Результат:";
+            label2.Click += label2_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(200, 7);
+            button4.Location = new Point(163, 7);
             button4.Name = "button4";
-            button4.Size = new Size(186, 29);
+            button4.Size = new Size(178, 29);
             button4.TabIndex = 8;
             button4.Text = "Неявное преобразование";
             button4.UseVisualStyleBackColor = true;
@@ -96,9 +99,9 @@
             // 
             // button3
             // 
-            button3.Location = new Point(392, 7);
+            button3.Location = new Point(347, 7);
             button3.Name = "button3";
-            button3.Size = new Size(186, 29);
+            button3.Size = new Size(194, 29);
             button3.TabIndex = 9;
             button3.Text = "Безопасное преобразование";
             button3.UseVisualStyleBackColor = true;
@@ -106,19 +109,30 @@
             // 
             // button5
             // 
-            button5.Location = new Point(584, 7);
+            button5.Location = new Point(547, 7);
             button5.Name = "button5";
-            button5.Size = new Size(186, 29);
+            button5.Size = new Size(191, 29);
             button5.TabIndex = 10;
             button5.Text = "Пользовательское преобразование";
             button5.UseVisualStyleBackColor = true;
             button5.Click += button5_Click;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(744, 7);
+            button6.Name = "button6";
+            button6.Size = new Size(167, 29);
+            button6.TabIndex = 11;
+            button6.Text = "Convert/parse/TryParse";
+            button6.UseVisualStyleBackColor = true;
+            button6.Click += button6_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(923, 524);
+            Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button3);
             Controls.Add(button4);
@@ -143,5 +157,6 @@
         private Button button4;
         private Button button3;
         private Button button5;
+        private Button button6;
     }
 }
