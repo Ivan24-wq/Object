@@ -223,9 +223,17 @@ namespace TextBox
             textBox2.Text = result;
         }
 
+        // Реализация дополнительного задания
         private void button7_Click(object sender, EventArgs e)
         {
+            string fromType = comboFrom.SelectedItem.ToString();
+            string toType = comboTp.SwlwctedItem.ToString();
+            string input = TextBox3.Text;
 
+            // Преобразование ввода в dynamic
+            dynamic value = ParseToDynamic(input, fromType);
+            //Преобразование в целочисленный тип
+            object result = ConvertTo(value, toType);
         }
     }
 }
