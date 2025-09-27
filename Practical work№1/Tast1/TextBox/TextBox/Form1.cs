@@ -226,14 +226,53 @@ namespace TextBox
         // Реализация дополнительного задания
         private void button7_Click(object sender, EventArgs e)
         {
-            string fromType = comboFrom.SelectedItem.ToString();
-            string toType = comboTp.SwlwctedItem.ToString();
-            string input = TextBox3.Text;
+            try
+            {
+                string fromType = comboFrom.SelectedItem.ToString();
+                string toType = comboTo.SelectedItem.ToString();
+                string input = textBox3.Text;
 
-            // Преобразование ввода в dynamic
-            dynamic value = ParseToDynamic(input, fromType);
-            //Преобразование в целочисленный тип
-            object result = ConvertTo(value, toType);
+                // Преобразование ввода в dynamic
+                dynamic value = ParseToDynamic(input, fromType);
+                //Преобразование в целочисленный тип
+                object result = ConvertTo(value, toType);
+
+                textBox4.Text = $"Ответ: {result} ({result.GetType().Name})";
+            }catch (Exception ex)
+            {
+                textBox4.Text = $"Ошибка!" + ex.Message;
+            }
+
         }
+        //Преобразование строки в тип dynamic
+        private dynamic ParseToDynamic(string input, string typeName)
+        {
+            return typeName switch
+            {
+                "char" => char.Parse(input),
+                "string" => input,
+                "int" => int.Parse(input),
+                "double" => double.Parse(input),
+                "bool" => bool.Parse(input),
+                "float" => float.Parse(input)
+            };
+        }
+
+        //преобразуем dynamic в выбранный тип
+        private object ConvertTo(dynamic value, string typeName)
+        {
+            return typeName switch
+            {
+                "char" => Convert.ToChar(value),
+                "string" => Convert.ToString(value),
+                "int" => Convert.ToInt32(value),
+                "double" => Convert.ToDouble(value),
+                "bool" => Convert.ToBoolean(value),
+                "decimal" => Convert.ToDecimal(value),
+                "float" => Convert.ToSingle(value)
+            };
+        }
+
+
     }
 }

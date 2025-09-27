@@ -46,6 +46,7 @@
             label6 = new Label();
             comboTo = new ComboBox();
             button7 = new Button();
+            textBox4 = new System.Windows.Forms.TextBox();
             SuspendLayout();
             // 
             // textBox1
@@ -221,11 +222,19 @@
             button7.UseVisualStyleBackColor = true;
             button7.Click += button7_Click;
             // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(7, 205);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(897, 23);
+            textBox4.TabIndex = 21;
+            // 
             // From
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(921, 524);
+            Controls.Add(textBox4);
             Controls.Add(button7);
             Controls.Add(comboTo);
             Controls.Add(label6);
@@ -270,5 +279,6 @@
         private Label label6;
         private ComboBox comboTo;
         private Button button7;
+        private System.Windows.Forms.TextBox textBox4;
     }
 }
