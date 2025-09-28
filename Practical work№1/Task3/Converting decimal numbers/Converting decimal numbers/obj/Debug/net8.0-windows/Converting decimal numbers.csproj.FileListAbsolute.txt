@@ -1,0 +1,21 @@
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\bin\Debug\net8.0-windows\Converting decimal numbers.exe
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\bin\Debug\net8.0-windows\Converting decimal numbers.deps.json
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\bin\Debug\net8.0-windows\Converting decimal numbers.runtimeconfig.json
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\bin\Debug\net8.0-windows\Converting decimal numbers.dll
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\bin\Debug\net8.0-windows\Converting decimal numbers.pdb
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\App.g.cs
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers_MarkupCompile.cache
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers_MarkupCompile.lref
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\MainWindow.baml
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.g.resources
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.GeneratedMSBuildEditorConfig.editorconfig
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.AssemblyInfoInputs.cache
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.AssemblyInfo.cs
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.csproj.CoreCompileInputs.cache
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.sourcelink.json
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.dll
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\refint\Converting decimal numbers.dll
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.pdb
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\Converting decimal numbers.genruntimeconfig.cache
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\obj\Debug\net8.0-windows\ref\Converting decimal numbers.dll

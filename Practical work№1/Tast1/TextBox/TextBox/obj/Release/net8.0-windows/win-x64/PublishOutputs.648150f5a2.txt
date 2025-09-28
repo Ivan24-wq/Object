@@ -1,0 +1,2 @@
+D:\ООП\Object\Practical work№1\Tast1\TextBox\TextBox\bin\Release\net8.0-windows\win-x64\publish\TextBox.pdb
+D:\ООП\Object\Practical work№1\Tast1\TextBox\TextBox\bin\Release\net8.0-windows\win-x64\publish\TextBox.exe

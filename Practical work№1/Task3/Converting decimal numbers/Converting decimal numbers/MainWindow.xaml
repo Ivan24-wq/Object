@@ -1,0 +1,46 @@
+﻿<Window x:Class="Converting_decimal_numbers.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Converting_decimal_numbers"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Введите десятичное число:" 
+               HorizontalAlignment="Left" 
+               Margin="25,21,0,0" VerticalAlignment="Top" 
+               Width="209" FontSize="14" 
+               FontFamily="Arial Rounded MT Bold"/>
+        <TextBox x:Name="inputText"
+            HorizontalAlignment="Left" 
+                 Margin="234,25,0,0" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" Width="63" 
+                 TextChanged="TextBox_TextChanged"/>
+        <Label Content="Выберите систему счисления" 
+               HorizontalAlignment="Left" 
+               Margin="327,21,0,0" VerticalAlignment="Top" 
+               Width="188" FontSize="14" 
+               FontFamily="Times New Roman"/>
+        <ComboBox x:Name="systemSelected"
+            HorizontalAlignment="Left" 
+                  Margin="541,27,0,0" 
+                  VerticalAlignment="Top" 
+                  Width="113" Height="20" 
+                  SelectionChanged="ComboBox_SelectionChanged">
+            <ComboBoxItem Content="Двоичная" Tag="2"/>
+            <ComboBoxItem Content="Восьмеричная" Tag="8"/>
+            <ComboBoxItem Content="Десятиричная" Tag="10"/>
+            <ComboBoxItem Content="" Tag="16" />
+        </ComboBox>
+        <Button x:Name="convert"
+            Content="Конвертировать" 
+                HorizontalAlignment="Left" 
+                Margin="671,27,0,0" 
+                VerticalAlignment="Top" 
+                RenderTransformOrigin="0.404,-0.449" 
+                Width="119"
+                Click="convert_Click"/>
+
+    </Grid>
+</Window>
