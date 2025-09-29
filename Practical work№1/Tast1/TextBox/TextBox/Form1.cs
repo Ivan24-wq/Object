@@ -45,7 +45,7 @@ namespace TextBox
 
             e.Handled = true;
         }
-
+        // обработчик нажатия кнопки
         private void button1_Click(object sender, EventArgs e)
         {
             string input = textBox1.Text.Trim();
@@ -94,6 +94,7 @@ namespace TextBox
             textBox2.Text = result;
         }
 
+        // Безопасное преобразование с использыванием is
         private void button3_Click(object sender, EventArgs e)
         {
             string result = "Безопасное преобразование: <is>" + Environment.NewLine;
