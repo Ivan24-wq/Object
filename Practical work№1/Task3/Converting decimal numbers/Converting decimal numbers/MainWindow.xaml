@@ -48,6 +48,58 @@
                VerticalAlignment="Top"
                FontSize="16"
                FontWeight="Bold"/>
+        <Label Content="Конвертер чисел" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center" 
+               Width="232" Height="34" 
+               FontSize="16" 
+               FontFamily="Broadway"/>
 
+        <Label Content="Введите десятичное число:" 
+            HorizontalAlignment="Left" 
+            Margin="30,258,0,0" VerticalAlignment="Top" 
+            Width="209" FontSize="14" 
+            FontFamily="Arial Rounded MT Bold"/>
+
+        <TextBox x:Name="inputNum"
+            HorizontalAlignment="Left" 
+            Margin="234,262,0,0" TextWrapping="Wrap" 
+            VerticalAlignment="Top" Width="63" 
+            TextChanged="TextBox_TextChanged"/>
+        <ComboBox x:Name="nums1selected"
+            HorizontalAlignment="Left" 
+                  Margin="348,258,0,0" 
+                  VerticalAlignment="Top" Width="89"
+                  SelectionChanged="ComboBox_SelectionChanged_one">
+            <ComboBoxItem Content="Арабские" Tag="1"/>
+            <ComboBoxItem Content="Римские" Tag="2"/>
+        </ComboBox>
+        <Label Content="Из" 
+               HorizontalAlignment="Left" 
+               Margin="317,256,0,0" 
+               VerticalAlignment="Top" 
+               FontSize="14" 
+               FontFamily="Times New Roman"/>
+        <Label Content="В"
+               HorizontalAlignment="Left" 
+               Margin="451,256,0,0" 
+               VerticalAlignment="Top" 
+               FontSize="14" FontFamily="Times New Roman"/>
+
+        <ComboBox x:Name="nums2selected"
+            HorizontalAlignment="Left" 
+                  Margin="475,258,0,0" 
+                  VerticalAlignment="Top" 
+                  Width="89"
+                  SelectionChanged="ComboBox_SelectionChanged_two">
+            <ComboBoxItem Content="Арабские"/>
+            <ComboBoxItem Content="Римские"/>
+        </ComboBox>
+        <Button x:Name="enter"
+            Content="Конвертировать" 
+                HorizontalAlignment="Left" 
+                Margin="600,258,0,0" 
+                VerticalAlignment="Top"
+                Click="enter_Click"/>
     </Grid>
 </Window>

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21161\\Task3\\Converting decimal numbers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87916AF0-D97F-4CDF-87CD-BA8AEAA9B00C}|Converting decimal numbers\\Converting decimal numbers.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21161\\task3\\converting decimal numbers\\converting decimal numbers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87916AF0-D97F-4CDF-87CD-BA8AEAA9B00C}|Converting decimal numbers\\Converting decimal numbers.csproj|solutionrelative:converting decimal numbers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{87916AF0-D97F-4CDF-87CD-BA8AEAA9B00C}|Converting decimal numbers\\Converting decimal numbers.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21161\\task3\\converting decimal numbers\\converting decimal numbers\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{87916AF0-D97F-4CDF-87CD-BA8AEAA9B00C}|Converting decimal numbers\\Converting decimal numbers.csproj|solutionrelative:converting decimal numbers\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87916AF0-D97F-4CDF-87CD-BA8AEAA9B00C}|Converting decimal numbers\\Converting decimal numbers.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21161\\task3\\converting decimal numbers\\converting decimal numbers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87916AF0-D97F-4CDF-87CD-BA8AEAA9B00C}|Converting decimal numbers\\Converting decimal numbers.csproj|solutionrelative:converting decimal numbers\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21161\\Task3\\Converting decimal numbers\\Converting decimal numbers\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Converting decimal numbers\\MainWindow.xaml",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21161\\Task3\\Converting decimal numbers\\Converting decimal numbers\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Converting decimal numbers\\MainWindow.xaml.cs",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Converting decimal numbers\\MainWindow.xaml.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAowAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-28T09:04:50.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-28T09:04:50.262Z"
             }
           ]
         }
