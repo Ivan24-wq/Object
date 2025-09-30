@@ -69,8 +69,7 @@
         <ComboBox x:Name="nums1selected"
             HorizontalAlignment="Left" 
                   Margin="348,258,0,0" 
-                  VerticalAlignment="Top" Width="89"
-                  SelectionChanged="ComboBox_SelectionChanged_one">
+                  VerticalAlignment="Top" Width="89">
             <ComboBoxItem Content="Арабские" Tag="1"/>
             <ComboBoxItem Content="Римские" Tag="2"/>
         </ComboBox>
@@ -90,8 +89,7 @@
             HorizontalAlignment="Left" 
                   Margin="475,258,0,0" 
                   VerticalAlignment="Top" 
-                  Width="89"
-                  SelectionChanged="ComboBox_SelectionChanged_two">
+                  Width="89">
             <ComboBoxItem Content="Арабские"/>
             <ComboBoxItem Content="Римские"/>
         </ComboBox>
@@ -101,5 +99,12 @@
                 Margin="600,258,0,0" 
                 VerticalAlignment="Top"
                 Click="enter_Click"/>
+        <Label x:Name="binaryLabel2"
+            Content=""
+            HorizontalAlignment="Left"
+            Margin="25,342,0,0"
+            VerticalAlignment="Top"
+            FontSize="16"
+            FontWeight="Bold"/>
     </Grid>
 </Window>
