@@ -19,28 +19,35 @@
                  TextChanged="TextBox_TextChanged"/>
         <Label Content="Выберите систему счисления" 
                HorizontalAlignment="Left" 
-               Margin="327,21,0,0" VerticalAlignment="Top" 
+               Margin="317,21,0,0" VerticalAlignment="Top" 
                Width="188" FontSize="14" 
                FontFamily="Times New Roman"/>
         <ComboBox x:Name="systemSelected"
             HorizontalAlignment="Left" 
-                  Margin="541,27,0,0" 
+                  Margin="510,26,0,0" 
                   VerticalAlignment="Top" 
                   Width="113" Height="20" 
                   SelectionChanged="ComboBox_SelectionChanged">
             <ComboBoxItem Content="Двоичная" Tag="2"/>
             <ComboBoxItem Content="Восьмеричная" Tag="8"/>
-            <ComboBoxItem Content="Десятиричная" Tag="10"/>
-            <ComboBoxItem Content="" Tag="16" />
+            <ComboBoxItem Content="Шестнадцатиричная" Tag="16" />
         </ComboBox>
         <Button x:Name="convert"
             Content="Конвертировать" 
                 HorizontalAlignment="Left" 
-                Margin="671,27,0,0" 
+                Margin="641,25,0,0" 
                 VerticalAlignment="Top" 
                 RenderTransformOrigin="0.404,-0.449" 
                 Width="119"
                 Click="convert_Click"/>
+
+        <Label x:Name="binaryLabel"
+               Content=""
+               HorizontalAlignment="Left"
+               Margin="25,70,0,0"
+               VerticalAlignment="Top"
+               FontSize="16"
+               FontWeight="Bold"/>
 
     </Grid>
 </Window>
