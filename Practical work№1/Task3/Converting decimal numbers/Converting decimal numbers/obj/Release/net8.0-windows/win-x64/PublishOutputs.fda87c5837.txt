@@ -1,0 +1,2 @@
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\bin\Release\net8.0-windows\win-x64\publish\Converting decimal numbers.pdb
+D:\ООП\Object\Practical work№1\Task3\Converting decimal numbers\Converting decimal numbers\bin\Release\net8.0-windows\win-x64\publish\Converting decimal numbers.exe

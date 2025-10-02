@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Converting decimal numbers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+086010aba9977ddec47d72d31c0e8be9228c6e5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ec5430551cf364f27cf0ea3e7539f243ed86d18")]
 [assembly: System.Reflection.AssemblyProductAttribute("Converting decimal numbers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Converting decimal numbers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
