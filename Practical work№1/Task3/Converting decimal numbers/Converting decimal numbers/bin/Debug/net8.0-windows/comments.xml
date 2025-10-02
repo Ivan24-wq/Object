@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Converting decimal numbers</name>
+    </assembly>
+    <members>
+        <member name="T:Converting_decimal_numbers.App">
+            <summary>
+            Interaction logic for App.xaml
+            </summary>
+            <summary>
+            App
+            </summary>
+        </member>
+        <member name="M:Converting_decimal_numbers.App.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+        <member name="M:Converting_decimal_numbers.App.Main">
+            <summary>
+            Application Entry Point.
+            </summary>
+        </member>
+        <member name="T:Converting_decimal_numbers.MainWindow">
+            <summary>
+            Главное окно WPF-приложения для преобразования чисел:
+            - из десятичной системы в другие системы счисления,
+            - из арабских чисел в римские и обратно.
+            </summary>
+            <summary>
+            MainWindow
+            </summary>
+        </member>
+        <member name="F:Converting_decimal_numbers.MainWindow.selectedBase">
+            <summary>
+            Выбранная система счисления (по умолчанию двоичная).
+            </summary>
+        </member>
+        <member name="M:Converting_decimal_numbers.MainWindow.#ctor">
+            <summary>
+            Конструктор окна MainWindow.
+            Инициализирует компоненты и задаёт начальные значения.
+            </summary>
+        </member>
+        <member name="M:Converting_decimal_numbers.MainWindow.TextBox_TextChanged(System.Object,System.Windows.Controls.TextChangedEventArgs)">
+            <summary>
+            Обработчик изменения текста в поле ввода.
+            Очищает содержимое метки для вывода результата.
+            </summary>
+            <param name="sender">Источник события.</param>
+            <param name="e">Аргументы события изменения текста.</param>
+        </member>
+        <member name="M:Converting_decimal_numbers.MainWindow.ComboBox_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+            <summary>
+            Обработчик выбора системы счисления в ComboBox.
+            Устанавливает основание системы в переменную selectedBase.
+            </summary>
+            <param name="sender">Источник события.</param>
+            <param name="e">Аргументы события изменения выбора.</param>
+        </member>
+        <member name="M:Converting_decimal_numbers.MainWindow.convert_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Обработчик кнопки "Convert".
+            Выполняет преобразование введённого числа в выбранную систему счисления.
+            </summary>
+            <param name="sender">Источник события.</param>
+            <param name="e">Аргументы события нажатия кнопки.</param>
+        </member>
+        <member name="M:Converting_decimal_numbers.MainWindow.ToRoman(System.Int32)">
+            <summary>
+            Преобразует арабское число в римское.
+            </summary>
+            <param name="number">Арабское число.</param>
+            <returns>Римское число в виде строки.</returns>
+        </member>
+        <member name="M:Converting_decimal_numbers.MainWindow.ToArab(System.String)">
+            <summary>
+            Преобразует римское число в арабское.
+            </summary>
+            <param name="roman">Римское число (строка).</param>
+            <returns>Арабское число.</returns>
+        </member>
+        <member name="M:Converting_decimal_numbers.MainWindow.enter_Click(System.Object,System.Windows.RoutedEventArgs)">
+            <summary>
+            Обработчик кнопки "Enter".
+            Выполняет преобразование между арабскими и римскими числами в зависимости от выбранных опций.
+            </summary>
+            <param name="sender">Источник события.</param>
+            <param name="e">Аргументы события нажатия кнопки.</param>
+        </member>
+        <member name="M:Converting_decimal_numbers.MainWindow.InitializeComponent">
+            <summary>
+            InitializeComponent
+            </summary>
+        </member>
+    </members>
+</doc>
