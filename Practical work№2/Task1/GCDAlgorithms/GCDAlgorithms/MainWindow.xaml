@@ -1,0 +1,77 @@
+﻿<Window x:Class="GCDAlgorithms.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GCDAlgorithms"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <Border BorderBrush="Black" 
+                Background="Green"
+                BorderThickness="1" 
+                Margin="0,10,0,363"/>
+        <Label Content="Нахождение наибольшего общего делителья(НОД)"
+       HorizontalAlignment="Left"
+       Height="50" 
+       Margin="165,16,0,0" 
+       VerticalAlignment="Top" 
+       Width="450" 
+       FontFamily="Times New Roman"
+       FontSize="20"/>
+        
+        <Label Content="Первое число:" 
+               HorizontalAlignment="Left" 
+               Margin="21,86,0,0" 
+               VerticalAlignment="Top" 
+               FontFamily="Times New Roman" 
+               FontSize="14" 
+               FontWeight="Bold" Width="109"/>
+        
+        <Label Content="Второе число:" 
+            HorizontalAlignment="Left" 
+            Margin="21,128,0,0" 
+            VerticalAlignment="Top" 
+            FontFamily="Times New Roman" 
+            FontSize="14" 
+            FontWeight="Bold" Width="109"/>
+
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="146,94,0,0" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="120"/>
+
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="146,128,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Width="120"/>
+
+        <Button Content="Расчитать НОД" 
+                HorizontalAlignment="Left" 
+                Margin="305,107,0,0" 
+                VerticalAlignment="Top" 
+                FontFamily="Times New Roman" 
+                FontSize="16" 
+                Width="124" 
+                Height="32"
+                Background="Red"/>
+
+        <Label Content="НОД:" 
+               HorizontalAlignment="Left" 
+               Margin="21,171,0,0" 
+               VerticalAlignment="Top" 
+               Width="55" 
+               FontFamily="Times New Roman"
+               FontSize="14"/>
+        
+        <TextBox HorizontalAlignment="Left" 
+                 Height="19" 
+                 Margin="92,175,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="101"/>
+
+    </Grid>
+</Window>
