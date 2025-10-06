@@ -24,5 +24,14 @@ namespace GCDAlgorithms
         {
             InitializeComponent();
         }
+
+        private void FindGCDEuclid(object sender, RoutedEventArgs e)
+        {
+            //Обратотка чисел и преобразование в целочисленный тип
+            int a = int.Parse(input_number1.Text);
+            int b = int.Parse(input_number2.Text);
+
+        }
+
     }
 }

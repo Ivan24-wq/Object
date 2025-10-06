@@ -37,18 +37,21 @@
             FontSize="14" 
             FontWeight="Bold" Width="109"/>
 
-        <TextBox HorizontalAlignment="Left" 
+        <TextBox x:Name="input_number1"
+            HorizontalAlignment="Left" 
                  Margin="146,94,0,0" TextWrapping="Wrap" 
                  VerticalAlignment="Top" 
                  Width="120"/>
 
-        <TextBox HorizontalAlignment="Left" 
+        <TextBox x:Name="input_number2"
+            HorizontalAlignment="Left" 
                  Margin="146,128,0,0" 
                  TextWrapping="Wrap" 
                  VerticalAlignment="Top"
                  Width="120"/>
 
-        <Button Content="Расчитать НОД" 
+        <Button x:Name="gcd"
+            Content="Расчитать НОД" 
                 HorizontalAlignment="Left" 
                 Margin="305,107,0,0" 
                 VerticalAlignment="Top" 
@@ -56,7 +59,8 @@
                 FontSize="16" 
                 Width="124" 
                 Height="32"
-                Background="Red"/>
+                Background="Red"
+                Click="gcd_Click"/>
 
         <Label Content="НОД:" 
                HorizontalAlignment="Left" 
@@ -66,7 +70,8 @@
                FontFamily="Times New Roman"
                FontSize="14"/>
         
-        <TextBox HorizontalAlignment="Left" 
+        <TextBox x:Name="output_response"
+            HorizontalAlignment="Left" 
                  Height="19" 
                  Margin="92,175,0,0" 
                  TextWrapping="Wrap" 

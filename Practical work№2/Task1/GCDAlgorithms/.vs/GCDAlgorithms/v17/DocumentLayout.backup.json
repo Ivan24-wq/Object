@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|solutionrelative:gcdalgorithms\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task1\\gcdalgorithms\\gcdalgorithms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\gcdalgorithms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|solutionrelative:gcdalgorithms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,8 +34,8 @@
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDAlgorithms\\MainWindow.xaml",
               "RelativeDocumentMoniker": "GCDAlgorithms\\MainWindow.xaml",
-              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDAlgorithms\\MainWindow.xaml*",
-              "RelativeToolTip": "GCDAlgorithms\\MainWindow.xaml*",
+              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDAlgorithms\\MainWindow.xaml",
+              "RelativeToolTip": "GCDAlgorithms\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-06T17:21:44.699Z",
               "EditorCaption": ""
@@ -50,8 +50,7 @@
               "RelativeToolTip": "GCDAlgorithms\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T17:21:43.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T17:21:43.024Z"
             }
           ]
         }
