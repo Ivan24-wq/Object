@@ -25,24 +25,22 @@ namespace GCDAlgorithms
             InitializeComponent();
         }
 
-        private void FindGCDEuclid(object sender, RoutedEventArgs e)
+        //Обработчик кнопки
+        private void gcd_Click(object sender, RoutedEventArgs e)
         {
             //Обратотка чисел и преобразование в целочисленный тип
-            int a = int.Parse(input_number1.Text);
-            int b = int.Parse(input_number2.Text);
-
             //Нужно вводить только целые числа
             if (!int.TryParse(input_number1.Text, out int a) ||
                 !int.TryParse(input_number2.Text, out int b))
             {
-                output_response.Content = "Введите целочисленное число!";
+                output_response.Text = "Введите целочисленное число!";
                 return;
             }
 
 
             //Вызов метода нахождения
             int gcd = GCDAlgorithms.FindGCDEuclid(a, b);
-            output_response.Content = $"({a}, {b}) = {gcd}";
+            output_response.Text = $"({a}, {b}) = {gcd}";
         }
         //Реализация нахождения НОД
         public static class GCDAlgorithms
