@@ -31,7 +31,36 @@ namespace GCDAlgorithms
             int a = int.Parse(input_number1.Text);
             int b = int.Parse(input_number2.Text);
 
-        }
+            //Нужно вводить только целые числа
+            if (!int.TryParse(input_number1.Text, out int a) ||
+                !int.TryParse(input_number2.Text, out int b))
+            {
+                output_response.Content = "Введите целочисленное число!";
+                return;
+            }
 
+
+            //Вызов метода нахождения
+            int gcd = GCDAlgorithms.FindGCDEuclid(a, b);
+            output_response.Content = $"({a}, {b}) = {gcd}";
+        }
+        //Реализация нахождения НОД
+        public static class GCDAlgorithms
+        {
+            public static int FindGCDEuclid(int a, int b)
+            {
+                a = Math.Abs(a);
+                b = Math.Abs(b);
+
+                // Делим до тех пор пока в остатке не получим ноль
+                while (b != 0)
+                {
+                    int res = a % b;
+                    a = b;
+                    b = res;
+                }
+                return a;
+            }
+        }
     }
 }
