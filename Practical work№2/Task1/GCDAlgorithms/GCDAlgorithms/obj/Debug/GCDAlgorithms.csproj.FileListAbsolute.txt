@@ -13,3 +13,4 @@ D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.csproj.CoreCompileInputs.cache
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.exe
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.pdb
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.exe.config
