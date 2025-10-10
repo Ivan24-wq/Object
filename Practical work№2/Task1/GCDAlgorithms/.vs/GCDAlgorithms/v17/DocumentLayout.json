@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B6BAA45-81BA-4CAA-A393-5A12EC464C4E}|GCDTestProject\\GCDTestProject.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task1\\gcdalgorithms\\gcdtestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B6BAA45-81BA-4CAA-A393-5A12EC464C4E}|GCDTestProject\\GCDTestProject.csproj|solutionrelative:gcdtestproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\gcdalgorithms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|solutionrelative:gcdalgorithms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task1\\gcdalgorithms\\gcdalgorithms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|solutionrelative:gcdalgorithms\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\gcdalgorithms\\gcdalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D851D28F-B42F-4039-9203-AC6C6FE247A5}|GCDAlgorithms\\GCDAlgorithms.csproj|solutionrelative:gcdalgorithms\\gcdalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDTestProject\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "GCDTestProject\\UnitTest1.cs",
-              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDTestProject\\UnitTest1.cs",
-              "RelativeToolTip": "GCDTestProject\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "GCDAlgorithms.cs",
+              "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDAlgorithms\\GCDAlgorithms.cs",
+              "RelativeDocumentMoniker": "GCDAlgorithms\\GCDAlgorithms.cs",
+              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDAlgorithms\\GCDAlgorithms.cs",
+              "RelativeToolTip": "GCDAlgorithms\\GCDAlgorithms.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T15:02:51.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-10T15:43:30.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDAlgorithms\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "GCDAlgorithms\\MainWindow.xaml.cs",
               "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task1\\GCDAlgorithms\\GCDAlgorithms\\MainWindow.xaml.cs",
               "RelativeToolTip": "GCDAlgorithms\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T17:21:43.024Z",
               "EditorCaption": ""

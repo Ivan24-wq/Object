@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
 namespace GCDAlgorithms
 {
     /// <summary>
@@ -43,6 +42,5 @@ namespace GCDAlgorithms
             output_response.Text = $"({a}, {b}) = {gcd}";
         }
         
- 
     }
 }

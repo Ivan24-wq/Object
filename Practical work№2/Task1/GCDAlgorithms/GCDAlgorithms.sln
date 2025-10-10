@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCDAlgorithms", "GCDAlgorit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCDTestProject", "GCDTestProject\GCDTestProject.csproj", "{5B6BAA45-81BA-4CAA-A393-5A12EC464C4E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GSDtest", "GSDtest\GSDtest.csproj", "{5133B39E-0225-46F3-9F4C-7067AF00F774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GCDAlgorithmsLib", "GCDAlgorithmsLib\GCDAlgorithmsLib.csproj", "{049D687B-03AB-4BD3-BDB4-AEDB5F0523F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{5B6BAA45-81BA-4CAA-A393-5A12EC464C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B6BAA45-81BA-4CAA-A393-5A12EC464C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B6BAA45-81BA-4CAA-A393-5A12EC464C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5133B39E-0225-46F3-9F4C-7067AF00F774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5133B39E-0225-46F3-9F4C-7067AF00F774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5133B39E-0225-46F3-9F4C-7067AF00F774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5133B39E-0225-46F3-9F4C-7067AF00F774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{049D687B-03AB-4BD3-BDB4-AEDB5F0523F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{049D687B-03AB-4BD3-BDB4-AEDB5F0523F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{049D687B-03AB-4BD3-BDB4-AEDB5F0523F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{049D687B-03AB-4BD3-BDB4-AEDB5F0523F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
