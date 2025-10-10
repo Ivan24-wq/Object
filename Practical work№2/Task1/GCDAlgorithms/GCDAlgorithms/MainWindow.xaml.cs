@@ -39,26 +39,10 @@ namespace GCDAlgorithms
 
 
             //Вызов метода нахождения
-            int gcd = GCDAlgorithms.FindGCDEuclid(a, b);
+            int gcd = EuclidAlgorithm.FindGCDEuclid(a, b);
             output_response.Text = $"({a}, {b}) = {gcd}";
         }
-        //Реализация нахождения НОД
-        public static class GCDAlgorithms
-        {
-            public static int FindGCDEuclid(int a, int b)
-            {
-                a = Math.Abs(a);
-                b = Math.Abs(b);
-
-                // Делим до тех пор пока в остатке не получим ноль
-                while (b != 0)
-                {
-                    int res = a % b;
-                    a = b;
-                    b = res;
-                }
-                return a;
-            }
-        }
+        
+ 
     }
 }

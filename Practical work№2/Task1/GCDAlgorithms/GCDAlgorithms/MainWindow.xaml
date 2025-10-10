@@ -72,11 +72,11 @@
         
         <TextBox x:Name="output_response"
             HorizontalAlignment="Left" 
-                 Height="19" 
+                 Height="17" 
                  Margin="92,175,0,0" 
                  TextWrapping="Wrap" 
                  VerticalAlignment="Top" 
-                 Width="101"/>
+                 Width="231"/>
 
     </Grid>
 </Window>
