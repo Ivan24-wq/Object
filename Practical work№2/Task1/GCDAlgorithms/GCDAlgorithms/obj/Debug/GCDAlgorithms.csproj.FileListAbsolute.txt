@@ -1,11 +1,11 @@
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\bin\Debug\GCDAlgorithms.exe.config
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\bin\Debug\GCDAlgorithms.exe
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\bin\Debug\GCDAlgorithms.pdb
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.csproj.AssemblyReference.cache
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\MainWindow.g.cs
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\App.g.cs
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms_MarkupCompile.cache
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms_MarkupCompile.lref
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\bin\Debug\GCDAlgorithms.exe.config
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\bin\Debug\GCDAlgorithms.exe
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\bin\Debug\GCDAlgorithms.pdb
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\MainWindow.baml
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.g.resources
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.Properties.Resources.resources
@@ -13,4 +13,3 @@ D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.csproj.CoreCompileInputs.cache
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.exe
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.pdb
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Debug\GCDAlgorithms.exe.config
