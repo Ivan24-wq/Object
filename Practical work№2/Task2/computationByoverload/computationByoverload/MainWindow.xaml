@@ -20,7 +20,7 @@
                FontSize="20"
                Foreground="White"/>
 
-        <Label x:Name="input_number"
+        <Label 
             Content="Введите числа через пробел:" 
                HorizontalAlignment="Left" 
                Margin="21,94,0,0" 
@@ -29,7 +29,8 @@
                FontSize="16"
                FontFamily="Bahnschrift"/>
         
-        <TextBox HorizontalAlignment="Left" 
+        <TextBox x:Name="input_number"
+                 HorizontalAlignment="Left" 
                  Margin="280,100,0,0" 
                  TextWrapping="Wrap"
                  VerticalAlignment="Top" 
@@ -48,7 +49,7 @@
                   VerticalAlignment="Top" 
                   Width="77">
             <ComboBoxItem Content="2" Tag="2"/>
-            <ComboBoxItem Content="3" Tag="2"/>
+            <ComboBoxItem Content="3" Tag="3"/>
             <ComboBoxItem Content="4" Tag="4"/>
             <ComboBoxItem Content="5" Tag="5"/>
         </ComboBox>

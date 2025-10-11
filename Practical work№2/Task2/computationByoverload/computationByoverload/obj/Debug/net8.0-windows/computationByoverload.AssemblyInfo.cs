@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("computationByoverload")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+941bbf8e5d7d11798f5d7cbf3bb8c450a65b3983")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b97d6ebc3f33fb7d2f8d75012e7acd4fb7b900e")]
 [assembly: System.Reflection.AssemblyProductAttribute("computationByoverload")]
 [assembly: System.Reflection.AssemblyTitleAttribute("computationByoverload")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
