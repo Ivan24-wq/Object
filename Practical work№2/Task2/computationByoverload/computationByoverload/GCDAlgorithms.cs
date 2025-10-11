@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace computationByoverload
 {
-    class EuclidAlgorithm
+    public static class EuclidAlgorithm
     {
         public static int FindGCDEuclid(int a, int b)
         {
