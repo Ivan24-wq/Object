@@ -1,0 +1,1 @@
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GCDAlgorithms\obj\Release\GCDAlgorithms.csproj.AssemblyReference.cache

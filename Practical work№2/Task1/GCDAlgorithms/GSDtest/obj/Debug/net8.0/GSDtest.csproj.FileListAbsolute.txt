@@ -1,9 +1,3 @@
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.csproj.AssemblyReference.cache
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.GeneratedMSBuildEditorConfig.editorconfig
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.AssemblyInfoInputs.cache
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.AssemblyInfo.cs
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.csproj.CoreCompileInputs.cache
-D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.sourcelink.json
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\bin\Debug\net8.0\testhost.dll
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\bin\Debug\net8.0\testhost.exe
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
@@ -165,6 +159,12 @@ D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\bin\Debug\net8.0
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\bin\Debug\net8.0\GCDAlgorithmsLib.pdb
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.csproj.AssemblyReference.cache
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.GeneratedMSBuildEditorConfig.editorconfig
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.AssemblyInfoInputs.cache
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.AssemblyInfo.cs
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.csproj.CoreCompileInputs.cache
+D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.sourcelink.json
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.csproj.Up2Date
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\GSDtest.dll
 D:\ООП\Object\Practical work№2\Task1\GCDAlgorithms\GSDtest\obj\Debug\net8.0\refint\GSDtest.dll

@@ -1,0 +1,83 @@
+﻿<Window x:Class="computationByoverload.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:computationByoverload"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Border BorderBrush="Black" 
+                BorderThickness="1" 
+                Margin="0,0,0,360"
+                Background="Blue"/>
+        <Label Content="Наибольший общий делитель" 
+               HorizontalAlignment="Center" 
+               Margin="0,10,0,0" 
+               VerticalAlignment="Top"
+               FontFamily="Times New Roman" 
+               Width="286" 
+               FontSize="20"
+               Foreground="White"/>
+        
+        <Label Content="Введите числа через пробел:" 
+               HorizontalAlignment="Left" 
+               Margin="21,94,0,0" 
+               VerticalAlignment="Top" 
+               Width="229"
+               FontSize="16"
+               FontFamily="Bahnschrift"/>
+        
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="280,100,0,0" 
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top" 
+                 Width="163"/>
+
+        <Label Content="Выберите количество чисел:" 
+               HorizontalAlignment="Left" 
+               Margin="484,97,0,0" 
+               VerticalAlignment="Top"
+               Width="198"
+               FontSize="14"/>
+
+        <ComboBox HorizontalAlignment="Left"
+                  Margin="687,104,0,0" 
+                  VerticalAlignment="Top" 
+                  Width="77">
+            <ComboBoxItem Content="2" Tag="2"/>
+            <ComboBoxItem Content="3" Tag="2"/>
+            <ComboBoxItem Content="4" Tag="4"/>
+            <ComboBoxItem Content="5" Tag="5"/>
+        </ComboBox>
+
+        <Button Content="Рассчитать" 
+                HorizontalAlignment="Left" 
+                Margin="678,156,0,0" 
+                VerticalAlignment="Top" 
+                Width="96"
+                Height="35"
+                Background="Green"
+                Foreground="White"
+                FontWeight="Bold">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1"
+                            CornerRadius="8"
+                            Padding="5">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <Label 
+               HorizontalAlignment="Left" 
+               Margin="39,148,0,0" 
+               VerticalAlignment="Top" 
+               Width="176" Height="26"/>
+    </Grid>
+</Window>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GSDtest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8529162563a6b206355858e6be046b7006cb0381")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+941bbf8e5d7d11798f5d7cbf3bb8c450a65b3983")]
 [assembly: System.Reflection.AssemblyProductAttribute("GSDtest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GSDtest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
