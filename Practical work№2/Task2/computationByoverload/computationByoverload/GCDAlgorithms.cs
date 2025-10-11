@@ -35,7 +35,7 @@ namespace computationByoverload
         {
             int f = FindGCDEuclid(a, b, c);
             //Аналогично находим НОД ответа и третьего
-            int res = FindGCDEuclid(f, c);
+            int res = FindGCDEuclid(f, d);
             return res;
         }
 
