@@ -19,8 +19,9 @@
                Width="286" 
                FontSize="20"
                Foreground="White"/>
-        
-        <Label Content="Введите числа через пробел:" 
+
+        <Label x:Name="input_number"
+            Content="Введите числа через пробел:" 
                HorizontalAlignment="Left" 
                Margin="21,94,0,0" 
                VerticalAlignment="Top" 
@@ -41,7 +42,8 @@
                Width="198"
                FontSize="14"/>
 
-        <ComboBox HorizontalAlignment="Left"
+        <ComboBox x:Name="numberSelected"
+            HorizontalAlignment="Left"
                   Margin="687,104,0,0" 
                   VerticalAlignment="Top" 
                   Width="77">
@@ -51,7 +53,8 @@
             <ComboBoxItem Content="5" Tag="5"/>
         </ComboBox>
 
-        <Button Content="Рассчитать" 
+        <Button x:Name="gcd"
+            Content="Рассчитать" 
                 HorizontalAlignment="Left" 
                 Margin="678,156,0,0" 
                 VerticalAlignment="Top" 
@@ -59,7 +62,8 @@
                 Height="35"
                 Background="Green"
                 Foreground="White"
-                FontWeight="Bold">
+                FontWeight="Bold"
+                Click="gcd_Click">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Background="{TemplateBinding Background}"
@@ -74,7 +78,7 @@
             </Button.Template>
         </Button>
 
-        <Label 
+        <Label x:Name="output_response"
                HorizontalAlignment="Left" 
                Margin="39,148,0,0" 
                VerticalAlignment="Top" 
