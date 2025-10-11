@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("computationByoverload")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Overload")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43fdd2cbca2199e716d4382d97ca4f882dc1f95b")]
-[assembly: System.Reflection.AssemblyProductAttribute("computationByoverload")]
-[assembly: System.Reflection.AssemblyTitleAttribute("computationByoverload")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+172483c08978cc4f2a9e0e33c5719f352d4b3daf")]
+[assembly: System.Reflection.AssemblyProductAttribute("Overload")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Overload")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

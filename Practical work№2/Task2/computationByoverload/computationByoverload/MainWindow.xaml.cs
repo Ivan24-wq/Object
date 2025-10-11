@@ -38,19 +38,28 @@ namespace computationByoverload
                 //Преобразовываем ввод в массив
                 int[] nums = parts.Select(int.Parse).ToArray();
 
-                //Вызовов методов перегрузки
-                int res = cout switch
+                //Задание 3 Тест для перегрузок
+                if(sender == gcd)
                 {
-                    2 => EuclidAlgorithm.FindGCDEuclid(nums[0], nums[1]),
-                    3 => EuclidAlgorithm.FindGCDEuclid(nums[0], nums[1], nums[2]),
-                    4 => EuclidAlgorithm.FindGCDEuclid(nums[0], nums[1], nums[2], nums[3]),
-                    5 => EuclidAlgorithm.FindGCDEuclid(nums[0], nums[1], nums[2], nums[3], nums[4])
-                };
-                output_response.Content = $"НОД: {res}";
-            }
-            else
-            {
-                output_response.Content = $"Выберите количество чисел!";
+                    int res = EuclidAlgorithm.FindGCDEuclid(nums[0], nums[1]);
+                    output_response.Content = $"НОД: {res}";
+                } else if(sender == gcd)
+                {
+                    int res = EuclidAlgorithm.FindGCDEuclid(nums[0], nums[1], nums[2]);
+                    output_response.Content = $"НОД: {res}";
+                }else if(sender == gcd)
+                {
+                    int res = EuclidAlgorithm.FindGCDEuclid(nums[0], nums[1], nums[2], nums[3]);
+                    output_response.Content = $"НОД: {res}";
+                }else if(sender == gcd)
+                {
+                    int res = EuclidAlgorithm.FindGCDEuclid(nums[0], nums[1], nums[2], nums[3], nums[4]);
+                    output_response.Content = $"НОД: {res}";
+                }
+                else
+                {
+                    output_response.Content = "Выбери число!";
+                }
             }
         }
     }
