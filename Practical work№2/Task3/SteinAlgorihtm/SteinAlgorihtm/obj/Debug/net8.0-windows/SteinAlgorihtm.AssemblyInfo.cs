@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SteinAlgorihtm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c63aa6402dca7f1fba87cec7e3817f2ed1fadb78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffa26d7cabb31ca60b43f05690acded8175195aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("SteinAlgorihtm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SteinAlgorihtm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\prime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\prime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\euclidalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\euclidalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,39 +39,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Prime.cs",
-              "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\Prime.cs",
-              "RelativeDocumentMoniker": "SteinAlgorihtm\\Prime.cs",
-              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\Prime.cs",
-              "RelativeToolTip": "SteinAlgorihtm\\Prime.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "Title": "EuclidAlgorithm.cs",
+              "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\EuclidAlgorithm.cs",
+              "RelativeDocumentMoniker": "SteinAlgorihtm\\EuclidAlgorithm.cs",
+              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\EuclidAlgorithm.cs",
+              "RelativeToolTip": "SteinAlgorihtm\\EuclidAlgorithm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T17:53:29.112Z",
+              "WhenOpened": "2025-10-14T12:27:33.184Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SteinAlgorihtm\\MainWindow.xaml",
               "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\MainWindow.xaml",
               "RelativeToolTip": "SteinAlgorihtm\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-12T17:06:44.484Z",
+              "WhenOpened": "2025-10-14T12:26:08.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SteinAlgorihtm\\MainWindow.xaml.cs",
               "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\MainWindow.xaml.cs",
               "RelativeToolTip": "SteinAlgorihtm\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowEIAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-12T17:06:40.103Z",
+              "WhenOpened": "2025-10-14T12:26:06.622Z",
               "EditorCaption": ""
             }
           ]

@@ -39,5 +39,32 @@ namespace SteinAlgorihtm
             string result = Prime.ShowShift(number);
             output.Text = result;
         }
+
+        //Обработчик кнопки нажатия
+        private void gcd_Click(object sender, RoutedEventArgs e)
+        {
+            //Вводим числа как строку
+            string[] parts = num1.Text.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            //Вводи 2 числа
+            if (parts.Length > 2)
+            {
+                output_res.Text = "Вводите только два числа!";
+                return;
+            }
+            //Проверка на целые
+            if (!int.TryParse(parts[0], out int a) || !int.TryParse(parts[1], out int b))
+            {
+                output_res.Text = "Введите только целые числа!";
+                return;
+            }
+
+            //Вызов алгоритма Евклида
+            int result = EuclidAlgorithm.FindGCDEuclid(a, b, out long time);
+           
+            //Вызов алгоритма Штейна
+            int res = Stein.FindGSDStrein(a, b, out long timeStein);
+            output_res.Text = $"НОД: {result}, Алгоритм Евклида: Time(ticks): {time}\n" + 
+                                $"НОД: {res}, Алгоритм Штейна: Time(ticks): {timeStein}";
+        }
     }
 }

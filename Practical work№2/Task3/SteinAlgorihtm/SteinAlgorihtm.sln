@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36221.1 d17.14
+VisualStudioVersion = 17.14.36221.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteinAlgorihtm", "SteinAlgorihtm\SteinAlgorihtm.csproj", "{65F2DAC9-1615-420B-9A00-53504C09CAD1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteinAlgorihtm", "SteinAlgorihtm\SteinAlgorihtm.csproj", "{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{65F2DAC9-1615-420B-9A00-53504C09CAD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{65F2DAC9-1615-420B-9A00-53504C09CAD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{65F2DAC9-1615-420B-9A00-53504C09CAD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{65F2DAC9-1615-420B-9A00-53504C09CAD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C43F9B9C-8C72-CA56-ACDF-6290B3484FF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

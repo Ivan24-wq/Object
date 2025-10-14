@@ -57,20 +57,22 @@
                VerticalAlignment="Top" FontSize="14" 
                FontFamily="Times New Roman"/>
         
-        <TextBox HorizontalAlignment="Left" 
+        <TextBox x:Name="num1"
+            HorizontalAlignment="Left" 
                  Margin="119,152,0,0" 
                  TextWrapping="Wrap"  
                  VerticalAlignment="Top" 
                  Width="131"/>
         
-        <Button 
+        <Button x:Name="gcd"
             Content="Найти НОД" 
                 HorizontalAlignment="Left" 
                 Margin="283,146,0,0" 
                 VerticalAlignment="Top" 
                 Width="76"
                 Background="Blue"
-                Foreground="White">
+                Foreground="White"
+                Click="gcd_Click">
             <Button.Template>
                 <ControlTemplate TargetType="Button">
                     <Border Background="{TemplateBinding Background}"
@@ -85,12 +87,13 @@
             </Button.Template>
         </Button>
         
-        <TextBox HorizontalAlignment="Left" 
+        <TextBox x:Name="output_res"
+            HorizontalAlignment="Left" 
                  Margin="391,152,0,0" 
                  TextWrapping="Wrap"
                  VerticalAlignment="Top" 
-                 Width="338" 
-                 RenderTransformOrigin="0.5,0.5">
+                 Width="362" 
+                 RenderTransformOrigin="0.5,0.5" Height="93">
             <TextBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
