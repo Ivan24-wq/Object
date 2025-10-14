@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Stein")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b292837d59759835c6926effa5c14760eec04295")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1f1933558e467ef786f6b69b3d5895c7809f80b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Stein")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Stein")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

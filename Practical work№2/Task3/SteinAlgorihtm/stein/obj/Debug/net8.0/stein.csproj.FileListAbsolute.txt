@@ -1,0 +1,17 @@
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\bin\Debug\net8.0\stein.deps.json
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\bin\Debug\net8.0\stein.dll
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\bin\Debug\net8.0\stein.pdb
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.csproj.AssemblyReference.cache
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.GeneratedMSBuildEditorConfig.editorconfig
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.AssemblyInfoInputs.cache
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.AssemblyInfo.cs
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.csproj.CoreCompileInputs.cache
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.gentestingplatformentrypointinputcache.cache
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.genautoregisteredextensionsinputcache.cache
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\AutoRegisteredExtensions.cs
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\TestPlatformEntryPoint.cs
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.sourcelink.json
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.dll
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\refint\stein.dll
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\stein.pdb
+D:\ООП\Object\Practical work№2\Task3\SteinAlgorihtm\stein\obj\Debug\net8.0\ref\stein.dll
