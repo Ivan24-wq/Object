@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SteinAlgorihtm")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Stein")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ffa26d7cabb31ca60b43f05690acded8175195aa")]
-[assembly: System.Reflection.AssemblyProductAttribute("SteinAlgorihtm")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SteinAlgorihtm")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b292837d59759835c6926effa5c14760eec04295")]
+[assembly: System.Reflection.AssemblyProductAttribute("Stein")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Stein")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
