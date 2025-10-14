@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\prime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\prime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21162\\task3\\steinalgorihtm\\steinalgorihtm\\prime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65F2DAC9-1615-420B-9A00-53504C09CAD1}|SteinAlgorihtm\\SteinAlgorihtm.csproj|solutionrelative:steinalgorihtm\\prime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Prime.cs",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\Prime.cs",
               "RelativeDocumentMoniker": "SteinAlgorihtm\\Prime.cs",
               "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\Prime.cs",
               "RelativeToolTip": "SteinAlgorihtm\\Prime.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-13T17:53:29.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SteinAlgorihtm\\MainWindow.xaml",
@@ -63,13 +63,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SteinAlgorihtm\\MainWindow.xaml.cs",
               "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21162\\Task3\\SteinAlgorihtm\\SteinAlgorihtm\\MainWindow.xaml.cs",
               "RelativeToolTip": "SteinAlgorihtm\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACcAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwBkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-12T17:06:40.103Z",
               "EditorCaption": ""

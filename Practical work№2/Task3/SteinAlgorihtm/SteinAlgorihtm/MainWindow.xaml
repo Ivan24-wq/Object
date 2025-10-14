@@ -50,5 +50,55 @@
                  TextWrapping="Wrap" 
                  VerticalAlignment="Top" 
                  Width="234"/>
+        
+        <Label Content="Введите числа: "
+               HorizontalAlignment="Left"
+               Margin="10,148,0,0" 
+               VerticalAlignment="Top" FontSize="14" 
+               FontFamily="Times New Roman"/>
+        
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="119,152,0,0" 
+                 TextWrapping="Wrap"  
+                 VerticalAlignment="Top" 
+                 Width="131"/>
+        
+        <Button 
+            Content="Найти НОД" 
+                HorizontalAlignment="Left" 
+                Margin="283,146,0,0" 
+                VerticalAlignment="Top" 
+                Width="76"
+                Background="Blue"
+                Foreground="White">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Border Background="{TemplateBinding Background}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1"
+                            CornerRadius="8"
+                            Padding="5">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+        <TextBox HorizontalAlignment="Left" 
+                 Margin="391,152,0,0" 
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top" 
+                 Width="338" 
+                 RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.126"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
     </Grid>
 </Window>
