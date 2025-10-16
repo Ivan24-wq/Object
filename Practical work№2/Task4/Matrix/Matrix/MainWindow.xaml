@@ -6,62 +6,51 @@
         xmlns:local="clr-namespace:Matrix"
         mc:Ignorable="d"
         Title="Matrix" Height="450" Width="800">
+
     <Grid>
-        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Margin="20">
+        <Border BorderBrush="Black" 
+                BorderThickness="1" 
+                HorizontalAlignment="Left" 
+                Height="66" 
+                VerticalAlignment="Top" 
+                Width="809"
+                Background="Crimson">
+
+            <Label Content="Умножение матриц" 
+                   HorizontalAlignment="Center" 
+                   Margin="0,9,0,0" 
+                   VerticalAlignment="Top" 
+                   FontFamily="Times New Roman" 
+                   FontSize="30"
+                   Foreground="White"/>
+        </Border>
+
+        <Grid Margin="10,80,473,217" ShowGridLines="True">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
 
             
-            <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
-                <TextBlock Text="Размер:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                <ComboBox x:Name="RowsComboBox" Width="50" SelectedIndex="2" SelectionChanged="SizeChanged">
-                    <ComboBoxItem Content="2"/>
-                    <ComboBoxItem Content="3"/>
-                    <ComboBoxItem Content="4"/>
-                    <ComboBoxItem Content="5"/>
-                </ComboBox>
-                <TextBlock Text="×" FontWeight="Bold" FontSize="16" VerticalAlignment="Center" Margin="5,0,5,0"/>
-                <ComboBox x:Name="ColsComboBox" Width="50" SelectedIndex="2" SelectionChanged="SizeChanged">
-                    <ComboBoxItem Content="2"/>
-                    <ComboBoxItem Content="3"/>
-                    <ComboBoxItem Content="4"/>
-                    <ComboBoxItem Content="5"/>
-                </ComboBox>
-            </StackPanel>
+            <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" 
+               Text="Matrix 1" FontWeight="Bold" 
+               HorizontalAlignment="Center" Padding="5"/>
 
             
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" >
-               
-                <StackPanel Margin="0,0,50,0">
-                    <TextBlock Text="A" FontWeight="Bold" FontSize="16" 
-                               HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                    <Grid HorizontalAlignment="Center">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Text="(" FontSize="40" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                        <UniformGrid x:Name="MatrixA" Rows="3" Columns="3" Grid.Column="1"/>
-                        <TextBlock Text=")" FontSize="40" VerticalAlignment="Center" Grid.Column="2" Margin="10,0,0,0"/>
-                    </Grid>
-                </StackPanel>
+            <TextBox Grid.Row="1" Grid.Column="0" Text="1" Padding="5" Name="Matrix1_R1C1"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Text="4" Padding="5" Name="Matrix1_R1C2"/>
 
-                
-                <StackPanel>
-                    <TextBlock Text="B" FontWeight="Bold" FontSize="16" 
-                               HorizontalAlignment="Center" Margin="0,0,0,10"/>
-                    <Grid HorizontalAlignment="Center">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Text="(" FontSize="40" VerticalAlignment="Center" Margin="0,0,10,0"/>
-                        <UniformGrid x:Name="MatrixB" Rows="3" Columns="3" Grid.Column="1"/>
-                        <TextBlock Text=")" FontSize="40" VerticalAlignment="Center" Grid.Column="2" Margin="10,0,0,0"/>
-                    </Grid>
-                </StackPanel>
-            </StackPanel>
+            <TextBox Grid.Row="2" Grid.Column="0" Text="2" Padding="5" Name="Matrix1_R2C1"/>
+            <TextBox Grid.Row="2" Grid.Column="1" Text="5" Padding="5" Name="Matrix1_R2C2"/>
 
-        </StackPanel>
+            <TextBox Grid.Row="3" Grid.Column="0" Text="3" Padding="5" Name="Matrix1_R3C1"/>
+            <TextBox Grid.Row="3" Grid.Column="1" Text="6" Padding="5" Name="Matrix1_R3C2"/>
+        </Grid>
     </Grid>
 </Window>
