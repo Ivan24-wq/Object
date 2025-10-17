@@ -19,3 +19,4 @@ D:\ООП\Object\Practical work№2\Task4\Matrix\Matrix\obj\Debug\net8.0-windows
 D:\ООП\Object\Practical work№2\Task4\Matrix\Matrix\obj\Debug\net8.0-windows\Matrix.pdb
 D:\ООП\Object\Practical work№2\Task4\Matrix\Matrix\obj\Debug\net8.0-windows\Matrix.genruntimeconfig.cache
 D:\ООП\Object\Practical work№2\Task4\Matrix\Matrix\obj\Debug\net8.0-windows\ref\Matrix.dll
+D:\ООП\Object\Practical work№2\Task4\Matrix\Matrix\obj\Debug\net8.0-windows\Matrix_Content.g.cs
