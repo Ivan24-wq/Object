@@ -61,9 +61,21 @@ class Program
             var temperature = sw.GetCoreTemperature();
             Console.WriteLine($"Температура ядра: {temperature}");
         }
-        catch(CoreTemperatureReadException ex)
+        catch (CoreTemperatureReadException ex)
         {
             Console.WriteLine($"Исключение для температуры ядра: {ex.Message}");
+        }
+
+        //Остановка реактора путём введения стержней в активную зону
+        try
+        {
+            Console.WriteLine("Остановка реактора путём введения стержней в активную зону");
+            var res = sw.InsertRodCluster();
+            Console.WriteLine($"Реактор: {res}");
+        }
+        catch(RodClusterReleaseException ex)
+        {
+            Console.WriteLine($"Исключение для реактора: {ex.Message}");
         }
     }
 }
