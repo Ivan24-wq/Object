@@ -1,11 +1,19 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
 namespace Matrix
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
     public partial class MainWindow : Window
     {
         private double[,] a, b, c;
@@ -15,7 +23,7 @@ namespace Matrix
             InitializeComponent();
             Update();
         }
-        //Кнопка для обноления матриц: создаем пустые матрицы
+
         private void Update(object sender = null, RoutedEventArgs e = null)
         {
             try
@@ -62,15 +70,15 @@ namespace Matrix
                 int colsB = b.GetLength(1);
 
                 // проверка на совместимость матриц
-                if(colsA != rowsB)
+                if (colsA != rowsB)
                 {
                     throw new ArgumentException("Количество столбцев в первой матрице должно совпадать с количеством сторк во второй!");
                 }
 
                 //Проверка матрицы A
-                for(int row = 0; row < rowsA; row++)
+                for (int row = 0; row < rowsA; row++)
                 {
-                    for(int col = 0; col < colsA; col++)
+                    for (int col = 0; col < colsA; col++)
                     {
                         if (a[row, col] <= 0)
                         {
@@ -81,9 +89,9 @@ namespace Matrix
                 }
 
                 //Проверка для матрицы B
-                for(int row = 0; row < rowsB; row++)
+                for (int row = 0; row < rowsB; row++)
                 {
-                    for(int col = 0; col < colsB; col++)
+                    for (int col = 0; col < colsB; col++)
                     {
                         if (b[row, col] <= 0)
                         {
@@ -104,7 +112,7 @@ namespace Matrix
 
                 Draw(cGrid, c);
             }
-            catch(ArgumentException ex)
+            catch (ArgumentException ex)
             {
                 MessageBox.Show(ex.Message, "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Warning);
             }

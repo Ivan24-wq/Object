@@ -1,0 +1,59 @@
+﻿<Window x:Class="Matrix.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Matrix"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Управление -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+            <TextBox x:Name="aRows" Width="25" Text="2" TextAlignment="Center"/>
+            <TextBlock Text="×" VerticalAlignment="Center" Margin="2"/>
+            <TextBox x:Name="aCols" Width="25" Text="3" TextAlignment="Center"/>
+
+            <TextBlock Text="  ×  " VerticalAlignment="Center" Margin="10,0"/>
+
+            <TextBlock x:Name="bRows" Text="3" Width="25" TextAlignment="Center" Background="LightGray"/>
+            <TextBlock Text="×" VerticalAlignment="Center" Margin="2"/>
+            <TextBox x:Name="bCols" Width="25" Text="2" TextAlignment="Center"/>
+
+            <Button Content="Обновить" Click="Update" Margin="10,0" Padding="8,3"/>
+            <Button Content="Случайно" Click="Random" Margin="5,0" Padding="8,3"/>
+            <Button Content="Умножить" Click="Multiply" Margin="5,0" Padding="8,3" Background="LightBlue"/>
+        </StackPanel>
+
+        <!-- Матрицы -->
+        <Grid Grid.Row="1" Margin="0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Grid.Column="0" Header="A" Padding="5">
+                <Grid x:Name="aGrid"/>
+            </GroupBox>
+
+            <TextBlock Grid.Column="1" Text="×" FontSize="16" VerticalAlignment="Center" Margin="5,0"/>
+
+            <GroupBox Grid.Column="2" Header="B" Padding="5">
+                <Grid x:Name="bGrid"/>
+            </GroupBox>
+
+            <TextBlock Grid.Column="3" Text="=" FontSize="16" VerticalAlignment="Center" Margin="5,0"/>
+
+            <GroupBox Grid.Column="4" Header="A × B" Padding="5">
+                <Grid x:Name="cGrid"/>
+            </GroupBox>
+        </Grid>
+    </Grid>
+</Window>
