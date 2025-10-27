@@ -1,0 +1,12 @@
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\bin\Debug\net8.0\MatrixLogic.deps.json
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\bin\Debug\net8.0\MatrixLogic.dll
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\bin\Debug\net8.0\MatrixLogic.pdb
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\MatrixLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\MatrixLogic.AssemblyInfoInputs.cache
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\MatrixLogic.AssemblyInfo.cs
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\MatrixLogic.csproj.CoreCompileInputs.cache
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\MatrixLogic.sourcelink.json
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\MatrixLogic.dll
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\refint\MatrixLogic.dll
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\MatrixLogic.pdb
+D:\ООП\Object\Practical work№3\Task2\Matrix\MatrixLogic\obj\Debug\net8.0\ref\MatrixLogic.dll

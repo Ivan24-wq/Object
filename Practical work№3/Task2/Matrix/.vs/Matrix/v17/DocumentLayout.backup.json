@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E1FAC30B-9D35-4233-BFA0-B47F8616B17C}|TestProject1\\TestProject1.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21163\\task2\\matrix\\testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1FAC30B-9D35-4233-BFA0-B47F8616B17C}|TestProject1\\TestProject1.csproj|solutionrelative:testproject1\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{022A7471-496D-48E3-8ACE-5F22EBF656AB}|MatrixLogic\\MatrixLogic.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21163\\task2\\matrix\\matrixlogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{022A7471-496D-48E3-8ACE-5F22EBF656AB}|MatrixLogic\\MatrixLogic.csproj|solutionrelative:matrixlogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A8551EEE-D2C4-4C3B-B648-50140933B83D}|Matrix\\Matrix.csproj|d:\\\u043E\u043E\u043F\\object\\practical work\u21163\\task2\\matrix\\matrix\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A8551EEE-D2C4-4C3B-B648-50140933B83D}|Matrix\\Matrix.csproj|solutionrelative:matrix\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,6 +29,20 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\MatrixLogic\\Class1.cs",
+              "RelativeDocumentMoniker": "MatrixLogic\\Class1.cs",
+              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\MatrixLogic\\Class1.cs",
+              "RelativeToolTip": "MatrixLogic\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:45:45.092Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
@@ -34,25 +56,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\TestProject1\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProject1\\UnitTest1.cs",
+              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\TestProject1\\UnitTest1.cs",
+              "RelativeToolTip": "TestProject1\\UnitTest1.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAkwCoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:55:27.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\Matrix\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Matrix\\MainWindow.xaml",
-              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\Matrix\\MainWindow.xaml*",
-              "RelativeToolTip": "Matrix\\MainWindow.xaml*",
+              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\Matrix\\MainWindow.xaml",
+              "RelativeToolTip": "Matrix\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-10-27T17:56:14.188Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\Matrix\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Matrix\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\Matrix\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "Matrix\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAAAJAAAAAAAAAA==",
+              "ToolTip": "D:\\\u041E\u041E\u041F\\Object\\Practical work\u21163\\Task2\\Matrix\\Matrix\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Matrix\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-27T17:56:11.726Z",
               "EditorCaption": ""
