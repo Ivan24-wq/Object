@@ -73,9 +73,45 @@ class Program
             var res = sw.InsertRodCluster();
             Console.WriteLine($"Реактор: {res}");
         }
-        catch(RodClusterReleaseException ex)
+        catch (RodClusterReleaseException ex)
         {
             Console.WriteLine($"Исключение для реактора: {ex.Message}");
+        }
+
+        //Температура ядра после остановки
+        try
+        {
+            Console.WriteLine("Температура ядра после остановки");
+            var res = sw.GetCoreTemperature();
+            Console.WriteLine($"Температура после остановки: {res}");
+        }
+        catch (CoreTemperatureReadException ex)
+        {
+            Console.WriteLine($"Исключение: {ex.Message}");
+        }
+
+        //Уровень радиации после торможения реактора
+        try
+        {
+            Console.WriteLine("Уровень радиации после торможения реактора");
+            var rad = sw.GetRadiationLevel();
+            Console.WriteLine($"Уровень радиации: {rad}");
+        }
+        catch (CoreRadiationLevelReadException ex)
+        {
+            Console.WriteLine($"Исключение: {ex.Message}");
+        }
+
+        //отправка сообщения
+        try
+        {
+            Console.WriteLine("отправка сообщения");
+            sw.SignalShutdownComplete();
+            Console.WriteLine($"Сообщение успешно отправлено!");
+        }
+        catch(SignallingException ex)
+        {
+            Console.WriteLine($"Исключение: {ex.Message}");
         }
     }
 }
