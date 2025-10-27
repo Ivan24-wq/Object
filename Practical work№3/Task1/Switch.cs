@@ -110,7 +110,7 @@ public class Switch
     }
 }
 
-// ---------------- Исключения ----------------
+//Исключения
 
 public class PowerGeneratorCommsException : Exception
 {
