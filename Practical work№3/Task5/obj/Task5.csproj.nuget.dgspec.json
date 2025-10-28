@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task3/Task3.csproj": {}
+    "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task5/Task5.csproj": {}
   },
   "projects": {
-    "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task3/Task3.csproj": {
+    "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task5/Task5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task3/Task3.csproj",
-        "projectName": "Task3",
-        "projectPath": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task3/Task3.csproj",
+        "projectUniqueName": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task5/Task5.csproj",
+        "projectName": "Task5",
+        "projectPath": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task5/Task5.csproj",
         "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task3/obj/",
+        "outputPath": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№3/Task5/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/mac/.nuget/NuGet/NuGet.Config"
