@@ -1,31 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№4/Task1/Task1.csproj": {}
+    "D:\\ООП\\Object\\Practical work№4\\Task1\\Task1.csproj": {}
   },
   "projects": {
-    "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№4/Task1/Task1.csproj": {
+    "D:\\ООП\\Object\\Practical work№4\\Task1\\Task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№4/Task1/Task1.csproj",
+        "projectUniqueName": "D:\\ООП\\Object\\Practical work№4\\Task1\\Task1.csproj",
         "projectName": "Task1",
-        "projectPath": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№4/Task1/Task1.csproj",
-        "packagesPath": "/Users/mac/.nuget/packages/",
-        "outputPath": "/Users/mac/Desktop/Study/ООП/Практики/Object/Practical work№4/Task1/obj/",
+        "projectPath": "D:\\ООП\\Object\\Practical work№4\\Task1\\Task1.csproj",
+        "packagesPath": "C:\\Users\\Darkghost\\.nuget\\packages\\",
+        "outputPath": "D:\\ООП\\Object\\Practical work№4\\Task1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/mac/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Darkghost\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net9.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -33,11 +39,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -54,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.410/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

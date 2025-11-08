@@ -101,6 +101,7 @@ namespace Matrix
                     }
                 }
 
+
                 for (int i = 0; i < rowsA; i++)
                     for (int j = 0; j < colsB; j++)
                     {
