@@ -41,5 +41,17 @@ public struct Complex
         a.Imag * b.Real + a.Real * b.Imag);
     }
 
+    //деление
+    public static Complex operator /(Complex a, Complex b)
+    {
+        double denominator = b.Real * b.Real + b.Imag * b.Imag;
+        if (denominator == 0)
+        {
+            throw new DivideByZeroException("нельзя делить на ноль!");
+        }
+        return new Complex((a.Real * b.Real + a.Imag * b.Imag) / denominator,
+        (a.Imag * b.Real - a.Real * b.Imag) / denominator);
+    }
+    
     
 }
