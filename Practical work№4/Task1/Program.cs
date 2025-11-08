@@ -20,5 +20,25 @@ class Program
         Console.WriteLine($"\nУмножение: (2+i)*(3-i): {multiply}");
         Console.WriteLine($"\nДеление: (2+i)*(3-i): {div}");
         Console.WriteLine($"\nМодуль числа: (2+i): {mod:F3}");
+
+        Console.WriteLine("-------------------------------");
+
+        //Умножение экспотенциально
+        var (r1, fi1) = a.ToExpotential();
+        var (r2, fi2) = b.ToExpotential();
+        //Умножение
+        double r = r1 * r2;
+        double fi = fi1 + fi2;
+
+        //Преобразование обратно
+        var res = Complexx.FromExpotential(r, fi);
+        Console.WriteLine($"\n Умножение в экспотенциальной форме: ");
+        Console.WriteLine($"\nr = {r:F4}");
+        Console.WriteLine($"\nfi = {fi:F4}");
+        Console.WriteLine($"\nОбратное преобразование: {res:F3}");
+
+
+        //Равенство
+        Console.WriteLine($"\n{multiply == res}");
     }
 }

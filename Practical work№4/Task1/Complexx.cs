@@ -105,11 +105,11 @@ public struct Complexx
     public override string ToString()
     {
         if (Imag == 0)
-            return $"{Real}";
+            return $"{Real:F1}";
         if (Real == 0)
-            return $"{Imag}i";
+            return $"{Imag:F1}i";
         if (Imag > 0)
-            return $"{Real} + {Imag}i";
-        return $"{Real} - {Imag}i";
+            return $"{Real:F1} + {Imag:F1}i";
+        return $"{Real:F1} - {Imag:F1}i";
     }
 }
