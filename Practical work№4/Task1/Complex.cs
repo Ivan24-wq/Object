@@ -1,4 +1,7 @@
-﻿namespace Task1;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Reflection;
+
+namespace Task1;
 
 public struct Complex
 {
@@ -47,11 +50,66 @@ public struct Complex
         double denominator = b.Real * b.Real + b.Imag * b.Imag;
         if (denominator == 0)
         {
-            throw new DivideByZeroException("нельзя делить на ноль!");
+            throw new DivideByZeroException("Нельзя делить на ноль!");
         }
         return new Complex((a.Real * b.Real + a.Imag * b.Imag) / denominator,
         (a.Imag * b.Real - a.Real * b.Imag) / denominator);
     }
-    
-    
+
+
+    //Модуль комлексного числа
+    public double Module => Math.Sqrt(Real * Real + Imag * Imag);
+
+    //преобразование в экспотенциальную форму
+    public (double r, double fi) ToExpotential()
+    {
+        double r = Math.Sqrt(Real * Real + Imag * IMag);
+        double fi = Math.Atan2(Imag, Real);
+        return (r, fi);
+    }
+
+    //обратное преобразование
+    public static Complex FromExpotential(double r, double fi)
+    {
+        double real = r * Math.Cos(fi);
+        double imag = r * Math.Sin(fi);
+        return new Complex(real, imag);
+    }
+
+    //Перегрузка оператора ==
+    public static bool operator ==(Complex a, Complex b)
+    {
+        return Math.Abs(a.Real - b.Real) < 1e-10 &&
+        Math.Abs(a.Imag - b.Imag) < 1e-10;
+    }
+
+    //Перегрузка !=
+    public static bool operator !=(Complex a, Complex b) => (a == b);
+
+    //Пререопределение Equals
+    public override bool Equals(object? obj)
+    {
+        if (obj is Complex c)
+        {
+            return this == c;
+        }
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(Real, Imag);
+    }
+
+    //Перегрузка ToString
+    public override string ToString()
+    {
+        if (Imag == 0)
+            return $"{Real}";
+        if (Real == 0)
+            return $"{Imag}";
+        if (Imag > 0)
+            return $"{Real} + {Imag}";
+        return $"{Real}"
+    }
 }
