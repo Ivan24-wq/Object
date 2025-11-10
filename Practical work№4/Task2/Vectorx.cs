@@ -1,5 +1,4 @@
 ﻿using System.Diagnostics.CodeAnalysis;
-using System.Numerics;
 using System.Reflection;
 
 namespace Task2;
@@ -37,6 +36,10 @@ public struct Vectorx
     public static Vectorx operator *(Vectorx a, double scalar)
     {
         return new Vectorx(a.X * scalar, a.Y * scalar, a.Z * scalar);
+    }
+    public static Vectorx operator *(double scalar, Vectorx a)
+    {
+        return a * scalar;
     }
 
     //Скалярное произведение
