@@ -1,4 +1,5 @@
-﻿using System.Numerics;
+﻿using System.Diagnostics.CodeAnalysis;
+using System.Numerics;
 using System.Reflection;
 
 namespace Task2;
@@ -41,7 +42,7 @@ public struct Vectorx
     //Скалярное произведение
     public static double Scal(Vectorx a, Vectorx b)
     {
-        return new Vectorx(a.X * b.X + a.Y * b.Y + a.Z * b.Z);
+        return a.X * b.X + a.Y * b.Y + a.Z * b.Z;
     }
 
     //Деление на скаляр
@@ -53,18 +54,49 @@ public struct Vectorx
     // Векторное произведение
     public static Vectorx Vec(Vectorx a, Vectorx b)
     {
-        return new Vectorx(b.Y * b.Z - a.Z - b.Z,
+        return new Vectorx(a.Y * b.Z - a.Z * b.Y,
                             a.Z * b.X - a.X * b.Z,
                             a.X * b.Y - a.Y * b.X);
     }
 
     //Модуль вектора
-    public double Module => Math.Abs(X * X + Y * Y + Z * Z);
+    public double Module => Math.Sqrt(X * X + Y * Y + Z * Z);
 
     //Нормализация вектора
-    public Vectorx Normalixe()
+    public Vectorx Normalize()
     {
         double mod = Module;
         return mod == 0 ? new Vectorx(0, 0, 0) : new Vectorx(X / mod, Y / mod, Z / mod);
+    }
+
+    //Перегрузка оператора ==
+    public static bool operator ==(Vectorx a, Vectorx b)
+    {
+        return a.X == b.X && a.Y == b.Y && a.Z == b.Z;
+    }
+    public static bool operator !=(Vectorx a, Vectorx b)
+    {
+        return !(a == b);
+    }
+
+    //Преобразование Equals
+    public override bool Equals(object? obj)
+    {
+        if (obj is Vectorx other)
+        {
+            return this == other;
+        }
+        return false;
+    }
+
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(X, Y, Z);
+    }
+
+    // Перегрузка ToString
+    public override string ToString()
+    {
+        return $"({X}, {Y}, {Z})";
     }
 }
