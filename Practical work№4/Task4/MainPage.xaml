@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Task4.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout>
+            <Button
+                Text ="Начать Стрес Тест"
+                TextColor = "Black"
+                FontSize="20"
+                Clicked="RunTests_Click"/>
+
+            <Label
+                x:Name ="sucessfull"
+                Text="Удачных: 0"
+                FontSize="18"
+                Padding="20"/>
+
+            <Label
+                x:Name ="fail"
+                Text="Провалено: 0"
+                FontSize="18"
+                Padding="15"
+                Margin="0, -20"/>
+            
+            <Label
+                x:Name="reasonsLabel"
+                Text ="Причина провала: "
+                FontSize="18"
+                Padding="10"
+                Margin="2"/>
+            
+            <CollectionView x:Name="reasonList" HeightRequest="500">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text ="{Binding}" FontSize="14"/>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
