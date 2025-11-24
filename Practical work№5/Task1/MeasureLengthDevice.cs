@@ -1,49 +1,45 @@
 ﻿using System;
 using System.Threading;
-using DeviceController;
 
 namespace MeasuringDevice
 {
     public class MeasureLengthDevice : IMeasuringDevice
     {
-        private Units unitsToUse;            // Выбранная система измерений
-        private int[] dataCaptured;          // Кольцевой буфер
-        private int mostRecentMeasure;       // Последнее измерение
+        private Units unitsToUse;            
+        private int[] dataCaptured;          
+        private int mostRecentMeasure;       
 
-        private DeviceController.DeviceController controller; // Эмулируемое устройство
+        private DeviceController.DeviceController controller;
 
-        private const DeviceType measurementType = DeviceType.LENGTH;
+        private const DeviceController.DeviceType measurementType =
+            DeviceController.DeviceType.LENGTH;
 
-        // Конструктор
         public MeasureLengthDevice(Units units)
         {
             unitsToUse = units;
         }
 
-        // Запуск сбора данных
         public void StartCollecting()
         {
             controller = DeviceController.DeviceController.StartDevice(measurementType);
             GetMeasurements();
         }
 
-        // Остановка сбора
         public void StopCollecting()
         {
             if (controller != null)
             {
-                controller.StopDevice();  // Важно: латинская 'c'
+                controller.StopDevice();
                 controller = null;
             }
         }
 
-        // Массив сырых данных
         public int[] GetRawData()
         {
-            return dataCaptured;
+            // ЧТОБЫ UI не падал
+            return dataCaptured ?? Array.Empty<int>();
         }
 
-        // Значение в метрической системе
         public decimal MetricValue()
         {
             if (unitsToUse == Units.Metric)
@@ -52,7 +48,6 @@ namespace MeasuringDevice
                 return mostRecentMeasure * 25.4m;
         }
 
-        // Значение в имперской системе
         public decimal ImperialValue()
         {
             if (unitsToUse == Units.Imperial)
@@ -61,11 +56,11 @@ namespace MeasuringDevice
                 return mostRecentMeasure * 0.03937m;
         }
 
-        // Фоновый сбор измерений
         private void GetMeasurements()
         {
             dataCaptured = new int[10];
-            ThreadPool.QueueUserWorkItem((_) =>
+
+            ThreadPool.QueueUserWorkItem(_ =>
             {
                 int x = 0;
                 Random timer = new Random();
@@ -74,11 +69,13 @@ namespace MeasuringDevice
                 {
                     Thread.Sleep(timer.Next(1000, 5000));
 
+                    if (controller == null) break;
+
                     dataCaptured[x] = controller.TakeMeasurement();
                     mostRecentMeasure = dataCaptured[x];
 
                     x++;
-                    if (x == 10)
+                    if (x >= 10)
                         x = 0;
                 }
             });
