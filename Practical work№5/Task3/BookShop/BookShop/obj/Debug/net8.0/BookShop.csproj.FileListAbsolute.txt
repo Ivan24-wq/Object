@@ -1,0 +1,15 @@
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\bin\Debug\net8.0\BookShop.exe
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\bin\Debug\net8.0\BookShop.deps.json
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\bin\Debug\net8.0\BookShop.runtimeconfig.json
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\bin\Debug\net8.0\BookShop.dll
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\bin\Debug\net8.0\BookShop.pdb
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\BookShop.GeneratedMSBuildEditorConfig.editorconfig
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\BookShop.AssemblyInfoInputs.cache
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\BookShop.AssemblyInfo.cs
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\BookShop.csproj.CoreCompileInputs.cache
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\BookShop.sourcelink.json
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\BookShop.dll
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\refint\BookShop.dll
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\BookShop.pdb
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\BookShop.genruntimeconfig.cache
+D:\ООП\Object\Practical work№5\Task3\BookShop\BookShop\obj\Debug\net8.0\ref\BookShop.dll
