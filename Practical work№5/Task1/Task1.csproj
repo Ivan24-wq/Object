@@ -15,7 +15,7 @@
 		<ApplicationTitle>Task1</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.task1</ApplicationId>
+		<ApplicationId>com.Player.Matrix</ApplicationId>
 		<ApplicationIdGuid>bebb973e-7f2b-41fe-8e48-1e6ee89ae23d</ApplicationIdGuid>
 
 		<!-- Versions -->
@@ -32,7 +32,8 @@
 
 	<ItemGroup>
 		<!-- App Icon -->
-		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
+		<MauiIcon Include="Resources\AppIcon\appicon.png" />
+
 
 		<!-- Splash Screen -->
 		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
