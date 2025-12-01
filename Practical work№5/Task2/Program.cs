@@ -5,6 +5,20 @@ class Program
 {
     static void Main()
     {
+        MeasureMassDevice device = new MeasureMassDevice(Units.Metric);
+        // Подписка на событие
+        EventHandler newMeasurementTaken = new EventHandler(Device_NewMeasurementTaken);
+        device.NewMeasugementTaken += newMeasurementTaken;
+
+        // Запуск сбора данных
+        device.StartCollecting();
+
+        Console.WriteLine("Сбор данных запущен. Нажмите Enter для остановки...");
+        Console.ReadLine();
+
+        // Остановка и освобождение ресурсов
+        device.Dispose();
+
         Console.WriteLine("Testing MeasureMassDevice...");
 
         IMeasuringDevice massDev = new MeasureMassDevice(Units.Metric);
@@ -40,5 +54,17 @@ class Program
         lenDev.StopCollecting();
 
         Console.WriteLine("\n\nDone.");
+
+        //Обработчик события новых измерений
+        static void Device_NewMeasurementTaken(object? sender, EventArgs e)
+        {
+            if(sender is MeasureDataDevice device)
+            {
+                //Получение последних изменений
+                int lastest = device.GetRawData().Last();
+                if(lastest != 0)
+                    Console.WriteLine($"\nНовое измерение: {lastest}");
+            }
+        }
     }
 }
