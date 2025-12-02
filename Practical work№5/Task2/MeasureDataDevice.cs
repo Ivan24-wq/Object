@@ -12,8 +12,19 @@ namespace MeasuringDevice
         protected int mostRecentMeasure;
         protected DeviceController? controller;
         protected DeviceType measurementType;
+
+        protected int heartBeatIntervalTime;
         //Событие
         public event EventHandler? NewMeasugementTaken;
+        public event HeartBeatEventHandler? HeartBeat;
+        private BackgroundWorker? heartBeatTimer;
+
+        //Свойство HeartBeatInterval
+        public int HeartBeatInterval
+        {
+            get => heartBeatIntervalTime;
+            private set => heartBeatIntervalTime = value;
+        }
 
         //Приматный член
         private  BackgroundWorker? dataCollector;
@@ -39,6 +50,40 @@ namespace MeasuringDevice
             dataCollector?.Dispose();
         }
 
+        //Метод OnHeartBeat
+        protected virtual void OnHeartBeat()
+        {
+            HeartBeat?.Invoke(this, new HeartBeatEventArs());
+        }
+
+        //Метод StartHeartBeat
+        public void StartHeartBeat()
+        {
+            heartBeatTimer = new BackgroundWorker();
+            heartBeatTimer.WorkerSupportsCancellation = true;
+            heartBeatTimer.WorkerReportsProgress = true;
+
+            // DoWork — поток таймера HeartBeat
+            heartBeatTimer.DoWork += (o, args) =>
+            {
+                while (true)
+                {
+                    Thread.Sleep(HeartBeatInterval);
+                    if(disposed)
+                        break;
+                    heartBeatTimer.ReportProgress(0);
+                }
+            };
+
+            //ReportProgress
+            heartBeatTimer.ProgressChanged += (o, args) =>
+            {
+                OnHeartBeat();
+            };
+
+            heartBeatTimer.RunWorkerAsync();
+        }
+
         public MeasureDataDevice(Units units)
         {
             unitsToUse = units;
@@ -55,6 +100,7 @@ namespace MeasuringDevice
         {
             controller = DeviceController.StartDevice(measurementType);
             GetMeasurements();
+            StartHeartBeat();
         }
 
         public void StopCollecting()
