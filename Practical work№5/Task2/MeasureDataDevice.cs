@@ -48,6 +48,12 @@ namespace MeasuringDevice
             }
 
             dataCollector?.Dispose();
+
+            if(heartBeatTimer != null)
+            {
+                heartBeatTimer.Dispose();
+                heartBeatTimer = null;
+            }
         }
 
         //Метод OnHeartBeat

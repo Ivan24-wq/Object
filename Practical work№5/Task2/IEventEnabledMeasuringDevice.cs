@@ -1,6 +1,6 @@
 namespace MeasuringDevice;
 
-public interface IEventEnabledMeasuringDevice1
+public interface IEventEnabledMeasuringDevice
 {
     event EventHandler NewMeasugementTaken;
     event HeartBeatEventHandler HeartBeat;

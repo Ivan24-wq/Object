@@ -1,16 +1,24 @@
 ﻿using MeasuringDevice;
 using System;
+using System.Linq;
+using System.Threading;
 
 class Program
 {
     static void Main()
     {
-        MeasureMassDevice device = new MeasureMassDevice(Units.Metric);
-        // Подписка на событие
-        EventHandler newMeasurementTaken = new EventHandler(Device_NewMeasurementTaken);
-        device.NewMeasugementTaken += newMeasurementTaken;
+        // Создаем устройство с heartbeat = 1000мс
+        MeasureMassDevice device = new MeasureMassDevice(Units.Metric, 1000);
 
-        // Запуск сбора данных
+        // Подписка на событие новых измерений
+        device.NewMeasugementTaken += Device_NewMeasurementTaken;
+
+        // Подписка на HeartBeat
+        device.HeartBeat += (sender, args) =>
+        {
+            Console.WriteLine($"[HEARTBEAT] {args.TimeStamp:HH:mm:ss.fff}");
+        };
+
         device.StartCollecting();
 
         Console.WriteLine("Сбор данных запущен. Нажмите Enter для остановки...");
@@ -19,10 +27,9 @@ class Program
         // Остановка и освобождение ресурсов
         device.Dispose();
 
-        Console.WriteLine("Testing MeasureMassDevice...");
+        Console.WriteLine("\nТестирование MeasureMassDevice...");
 
-        IMeasuringDevice massDev = new MeasureMassDevice(Units.Metric);
-
+        IMeasuringDevice massDev = new MeasureMassDevice(Units.Metric, 1000);
         massDev.StartCollecting();
         Console.WriteLine("Collecting data for 5 seconds...");
         Thread.Sleep(5000);
@@ -37,34 +44,16 @@ class Program
         Console.WriteLine("\nStopping...");
         massDev.StopCollecting();
 
+        Console.WriteLine("\nDone.");
+    }
 
-        Console.WriteLine("\n\nTesting MeasureLengthDevice...");
-
-        IMeasuringDevice lenDev = new MeasureLengthDevice(Units.Imperial);
-        lenDev.StartCollecting();
-        Thread.Sleep(5000);
-
-        Console.WriteLine("Metric length: " + lenDev.MetricValue());
-        Console.WriteLine("Imperial length: " + lenDev.ImperialValue());
-
-        Console.WriteLine("Raw data:");
-        foreach (var v in lenDev.GetRawData())
-            Console.Write(v + " ");
-
-        lenDev.StopCollecting();
-
-        Console.WriteLine("\n\nDone.");
-
-        //Обработчик события новых измерений
-        static void Device_NewMeasurementTaken(object? sender, EventArgs e)
+    // Обработчик новых измерений
+    static void Device_NewMeasurementTaken(object? sender, EventArgs e)
+    {
+        if (sender is MeasureDataDevice device)
         {
-            if(sender is MeasureDataDevice device)
-            {
-                //Получение последних изменений
-                int lastest = device.GetRawData().Last();
-                if(lastest != 0)
-                    Console.WriteLine($"\nНовое измерение: {lastest}");
-            }
+            int last = device.GetRawData().LastOrDefault();
+            Console.WriteLine($"\nНовое измерение: {last}");
         }
     }
 }
