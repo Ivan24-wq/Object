@@ -1,0 +1,38 @@
+﻿<Window x:Class="Task3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <UserControl>
+        <!-- Колесо -->
+        <Viewbox Width="200" Height="200">
+            <Canvas Width="200" Height="200">
+                <Ellipse Canvas.Left="10" Canvas.Top="10" Width="180" Height="180"
+                         Stroke="Black" StrokeThickness="6" Fill="#222"/>
+
+                <!-- Дисскк -->
+                <Ellipse Canvas.Left="40" Canvas.Top="40" Width="120" Height="120"
+                         Stroke="#BBB" StrokeThickness="4" Fill="#444"/>
+
+                <Ellipse Canvas.Left="85" Canvas.Top="85" Width="30" Height="30"
+                         Stroke="#DDD" StrokeThickness="2" Fill="#CCC"/>
+
+                
+                <!-- Спицы -->
+                <Line X1="100" Y1="100" X2="100" Y2="30" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="152" Y2="52" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="170" Y2="100" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="152" Y2="148" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="100" Y2="170" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="152" Y2="148" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="100" Y2="170" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="48" Y2="148" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="30" Y2="100" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+                <Line X1="100" Y1="100" X2="48" Y2="52" Stroke="#EEE" StrokeThickness="4" StrokeEndLineCap="Round"/>
+            </Canvas>
+        </Viewbox>
+    </UserControl>
+</Window>
