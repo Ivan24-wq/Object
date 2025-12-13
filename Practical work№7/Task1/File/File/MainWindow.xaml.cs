@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using File;
 using Microsoft.Win32;
 
 namespace FileApp
@@ -129,8 +130,104 @@ namespace FileApp
             {
                 MessageBox.Show($"Ошибка: {ex.Message}");
             }
-
         }
+
+        //Создание бинарного файла
+        private void ChooseBin_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog dialog = new SaveFileDialog();
+            dialog.Filter = "Бинарные файлы(*.bin) | *.bin | Все файлы(*.*) | *.* ";
+            dialog.FileName = "";
+            if (dialog.ShowDialog() == true)
+            {
+                using (BinaryWriter writer = new BinaryWriter(System.IO.File.Open(dialog.FileName, System.IO.FileMode.Create)))
+                {
+                    try
+                    {
+                        writer.Write(input.Text);
+                        MessageBox.Show("Успешная запись бинарного файла");
+                    }
+                    catch(Exception ex)
+                    {
+                        MessageBox.Show($"Ошибка: {ex.Message}");
+                    }
+                }
+            }
+        }
+
+        //Запись
+        private void WriteBin_Click(object sender, RoutedEventArgs e)
+        {
+            SaveFileDialog dialog = new SaveFileDialog();
+            dialog.Filter = "Бинарные файлы (*.bin)|*.bin|Все файлы (*.*)|*.*";
+            dialog.FileName = "people.bin";
+
+            if (dialog.ShowDialog() != true)
+                return;
+
+            Person[] persons =
+            {
+                new Person("Tom", 47),
+                new Person("Bob", 20),
+                new Person("Man", 17)
+    };
+
+            try
+            {
+                using (BinaryWriter writer =
+                       new BinaryWriter(System.IO.File.Open(dialog.FileName, FileMode.Create)))
+                {
+                    writer.Write(persons.Length);
+
+                    foreach (Person p in persons)
+                    {
+                        writer.Write(p.Name);
+                        writer.Write(p.Age);
+                    }
+                }
+
+                MessageBox.Show("Бинарный файл успешно создан!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка: {ex.Message}");
+            }
+        }
+
+
+        //Чтение бинарника
+        private void ReadBin_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Бинарные файлы (*.bin)|*.bin|Все файлы (*.*)|*.*";
+
+            if (dialog.ShowDialog() != true)
+                return;
+
+            using (BinaryReader reader =
+                   new BinaryReader(System.IO.File.Open(dialog.FileName, FileMode.Open)))
+            {
+                int count = reader.ReadInt32();
+                Person[] persons = new Person[count];
+
+                for (int i = 0; i < count; i++)
+                {
+                    string name = reader.ReadString();
+                    int age = reader.ReadInt32();
+                    persons[i] = new Person(name, age);
+                }
+
+                string result = "";
+                foreach (Person p in persons)
+                {
+                    result += $"{p.Name}, {p.Age} лет\n";
+                }
+
+                MessageBox.Show(result);
+            }
+        }
+
+
 
     }
 }
