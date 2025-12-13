@@ -43,6 +43,30 @@
                  VerticalAlignment="Top"
                  Width="770" 
                  Height="85"/>
+        
+        <!-- Поле для ввода текста-->
+        <TextBox x:Name="input"
+            HorizontalAlignment="Left" 
+                 Margin="22,139,0,0" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="262" Height="78"/>
+        
+        <Button Content="Записать" 
+                HorizontalAlignment="Left" 
+                Margin="311,139,0,0" 
+                VerticalAlignment="Top" 
+                Width="125" 
+                Height="25"
+                Click="Write_Click"/>
+        
+        <Button Content="Удалить" 
+                HorizontalAlignment="Left" 
+                Margin="311,178,0,0" 
+                VerticalAlignment="Top" 
+                Width="125" 
+                Height="26"
+                Click="Delete_Click"/>
 
     </Grid>
 </Window>

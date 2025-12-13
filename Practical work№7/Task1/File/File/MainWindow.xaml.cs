@@ -67,11 +67,69 @@ namespace FileApp
             string path = dialog.FileName;
             FilePath.Text = path;
 
-            //Читаем файл
-            using (StreamReader reader = new StreamReader(path))
+            try
             {
-                Answer.Text = reader.ReadToEnd();
+                //Читаем файл
+                using (StreamReader reader = new StreamReader(path))
+                {
+                    Answer.Text = reader.ReadToEnd();
+                }
             }
+            catch(Exception ex)
+            {
+                MessageBox.Show($"Ошибка чтения: {ex.Message}");
+            }
+        }
+
+        //Запись текста
+        private void Write_Click(object sender, RoutedEventArgs e)
+        {
+            //Выбор файла для записи
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
+            if(dialog.ShowDialog() == true)
+            {
+                FilePath.Text = dialog.FileName;
+            }
+            string path = dialog.FileName;
+            FilePath.Text = path;
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(path, false))
+                {
+                    writer.Write(input.Text);
+                }
+                MessageBox.Show("Успешная запись!");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show($"Неизвестная ошибка! {ex.Message}");
+            }
+        }
+
+        //Удаление
+        private void Delete_Click(object obj, RoutedEventArgs e)
+        {
+            //Найдём файл
+            OpenFileDialog dialog = new OpenFileDialog();
+            dialog.Filter = "Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*";
+            if (dialog.ShowDialog() == true)
+            {
+                FilePath.Text = dialog.FileName;
+            }
+            string path = dialog.FileName;
+            FilePath.Text = path;
+
+            try
+            {
+                System.IO.File.Delete(path);
+                MessageBox.Show("Успешное удаление");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show($"Ошибка: {ex.Message}");
+            }
+
         }
 
     }
